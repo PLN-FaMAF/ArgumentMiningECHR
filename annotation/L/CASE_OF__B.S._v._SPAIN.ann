@@ -1,0 +1,258 @@
+T1	major-claim 13718 13786	the domestic courts’ investigation of the events had been inadequate
+A1	ACTOR T1 applicant
+T2	premise 13662 13689	the provisions of Article 3
+A2	PREMISE_TYPE T2 principle
+R1	Support Arg1:T2 Arg2:T1	
+T3	premise 13097 13201	the national police had both verbally and physically abused her when they had stopped and questioned her
+A3	PREMISE_TYPE T3 fact
+T4	premise 13220 13429	she had been discriminated against on account of her skin colour and her gender, whereas other women with a “European phenotype” carrying on the same activity in the same area had not been approached by police
+A4	PREMISE_TYPE T4 fact
+T5	premise 13467 13529;13530 13649	the language used by Palma de Mallorca investigating judge no. 9, who, in his decision of 10 June 2007, had referred to the “shameful spectacle of prostitution on the public highway”
+A5	PREMISE_TYPE T5 fact
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T5 Arg2:T1	
+T8	major-claim 16638 16791	the investigative procedures brought before the two investigating judges were sufficient to consider that the Spanish State had fulfilled its obligations
+A8	ACTOR T8 goverment
+T9	premise 16823 16872	the police officers were ultimately not convicted
+A9	PREMISE_TYPE T9 fact
+R5	Attack Arg1:T9 Arg2:T8	
+T10	premise 16480 16615	the procedural obligation imposed on the States with regard to Article 3 of the Convention was an obligation of means and not of result
+A10	PREMISE_TYPE T10 principle
+R6	Support Arg1:T10 Arg2:T8	
+T6	claim 14593 14723	the police interventions in the area in question had not in any way targeted the applicant personally or discriminated against her
+A6	ACTOR T6 goverment
+T7	claim 14729 15002	had been preventive security measures designed to respond to public alarm caused by prostitution and to combat networks operating in the Balearic Islands which exploited immigrant women, in particular in the El Arenal district in which the applicant carried on her activity
+A7	ACTOR T7 goverment
+R7	Support Arg1:T7 Arg2:T6	
+T11	premise 15004 15117;15118 15160	The Ministry of the Interior had already implemented measures to combat such networks under Institutional Law no. 1/1992 on the protection of urban security
+A11	PREMISE_TYPE T11 fact
+R8	Support Arg1:T11 Arg2:T7	
+T12	claim 14441 14499	the seriousness of the injuries sustained by the applicant
+A12	ACTOR T12 goverment
+T13	claim 14521 14552	their cause had not been proved
+A13	ACTOR T13 goverment
+T14	premise 15420 15541;15542 15690	the applicant’s allegations had been the subject of a judicial investigation by Palma de Mallorca investigating judge no. 9, during which the only investigative measure requested by the applicant had been an identity parade of the police officers behind a two-way mirror
+A14	PREMISE_TYPE T14 fact
+T15	premise 15714 15775	the applicant had not lodged a complaint against the officers
+A15	PREMISE_TYPE T15 fact
+T16	claim 15777 15819;15853 15939	the rejection of her request was justified on the grounds that the officers had already been identified by the police authorities
+A16	ACTOR T16 goverment
+T17	premise 15941 16081	Those proceedings had been concluded by the judgment of 11 March 2008, delivered after a public hearing, acquitting the officers in question
+A17	PREMISE_TYPE T17 fact
+T18	premise 16170 16237;16238 16240	this had been examined by Palma de Mallorca investigating judge no. 11
+A18	PREMISE_TYPE T18 fact
+T19	premise 16242 16383	After assessing the police and medical reports provided, the judge had decided to discontinue the proceedings for want of sufficient evidence
+A19	PREMISE_TYPE T19 fact
+R9	Support Arg1:T19 Arg2:T8	
+R10	Support Arg1:T18 Arg2:T8	
+R11	Support Arg1:T17 Arg2:T8	
+R12	Support Arg1:T16 Arg2:T8	
+R13	Support Arg1:T15 Arg2:T8	
+R14	Support Arg1:T14 Arg2:T8	
+R15	Support Arg1:T6 Arg2:T8	
+R16	Support Arg1:T13 Arg2:T8	
+R17	Support Arg1:T12 Arg2:T8	
+T20	major-claim 16926 17086	the manner in which the investigation had been carried out before the domestic courts amounted to a breach of the State’s procedural obligations under Article 3
+A20	ACTOR T20 applicant
+T21	premise 17107 17373	the courts had not adequately dealt with her request for certain investigative measures regarding the incidents she had alleged, such as an identity parade of the officers behind a two-way mirror which would have enabled her to recognise the police officers involved
+A21	PREMISE_TYPE T21 fact
+R18	Support Arg1:T21 Arg2:T20	
+T22	claim 17405 17523	the State shifted the obligation to investigate on to her and imposed the burden of proving the alleged offence on her
+A22	ACTOR T22 applicant
+R19	Support Arg1:T22 Arg2:T20	
+T23	claim 17579 17666	it was incumbent on the State to prove that particular treatment was not discriminatory
+A23	ACTOR T23 applicant
+T24	premise 17546 17577	the Strasbourg Court’s case-law
+A24	PREMISE_TYPE T24 case-law
+R20	Support Arg1:T24 Arg2:T23	
+R21	Attack Arg1:T23 Arg2:T22	
+T25	claim 17879 17917	the investigation had been ineffective
+A25	ACTOR T25 applicant
+R22	Support Arg1:T25 Arg2:T20	
+T26	premise 17697 17860	she had not lodged a complaint against the police officers who had appeared before the courts because they were not the officers who had stopped and questioned her
+A26	PREMISE_TYPE T26 fact
+R23	Support Arg1:T26 Arg2:T25	
+T27	claim 17921 18011	it had not enabled the officers responsible to be identified and, if appropriate, punished
+A27	ACTOR T27 applicant
+R24	Support Arg1:T27 Arg2:T25	
+T28	premise 18052 18132	she had not been informed of the means used to identify the officers in question
+A28	PREMISE_TYPE T28 fact
+R25	Support Arg1:T28 Arg2:T25	
+T29	premise 18228 18432	the only measure taken by the domestic courts to identify the perpetrators had been a request for a report from the Balearic Islands chief of police, who was the immediate superior of the persons involved
+A29	PREMISE_TYPE T29 fact
+T30	claim 18434 18468	That had clearly been insufficient
+A30	ACTOR T30 applicant
+R26	Support Arg1:T29 Arg2:T30	
+R27	Support Arg1:T30 Arg2:T25	
+T31	claim 18645 18729	discrimination against immigrant black women was a structural problem in the country
+A31	ACTOR T31 applicant
+T32	premise 18513 18622	the United Nations Human Rights Committee had already found a violation by Spain on grounds of discrimination
+A32	PREMISE_TYPE T32 fact
+R28	Support Arg1:T32 Arg2:T31	
+T33	claim 18771 18876	the attitude and conduct of both the police and the courts had clearly been motivated by their prejudices
+A33	ACTOR T33 applicant
+R29	Support Arg1:T31 Arg2:T33	
+R30	Support Arg1:T33 Arg2:T20	
+T34	claim 18898 18955;18956 19274	the comments of Palma de Mallorca investigating judge no. 9, which she regarded as clearly discriminatory in their reference to the “shameful spectacle of prostitution” and to the fact that the applicant’s complaint was based on “fallacious” grounds in that her conduct had merely reflected her repeated failure to obey orders given by the police in the course of their duties
+A34	ACTOR T34 applicant
+R31	Support Arg1:T34 Arg2:T33	
+T35	major-claim 19331 19783;19785 19923	where an individual makes a credible assertion that he has suffered treatment infringing Article 3 at the hands of the police or other similar agents of the State, that provision, read in conjunction with the State’s general duty under Article 1 of the Convention to “secure to everyone within their jurisdiction the rights and freedoms defined in... [ the ] Convention”, requires by implication that there should be an effective official investigation Such an investigation, as with one under Article 2, should be capable of leading to the identification and punishment of those responsible
+A35	ACTOR T35 ECHR
+T36	premise 19925 20054;20055 20238;20239 20276	see, regarding Article 2 of the Convention, McCann and Others v. the United Kingdom, 27 September 1995, SECTION_REF, Series A no. 324; Kaya v. Turkey, 19 February 1998, SECTION_REF, Reports of Judgments and Decisions 1998‑I; Yasa v. Turkey, 2 September 1998, SECTION_REF, Reports 1998-VI; and Dikme v. Turkey, no. 20869/92, SECTION_REF, ECHR 2000‑VIII
+A36	PREMISE_TYPE T36 case-law
+R32	Support Arg1:T36 Arg2:T35	
+T37	claim 20279 20586	Otherwise, the general legal prohibition of torture and inhuman and degrading treatment and punishment would, despite its fundamental importance, be ineffective in practice and it would be possible in some cases for agents of the State to abuse the rights of those within their control with virtual impunity
+A37	ACTOR T37 ECHR
+R33	Support Arg1:T37 Arg2:T35	
+T38	premise 20588 20671	see Assenov and Others v. Bulgaria, 28 October 1998, SECTION_REF, Reports 1998‑VIII
+A38	PREMISE_TYPE T38 case-law
+R34	Support Arg1:T38 Arg2:T37	
+T39	claim 20958 21043	the assessment of the minimum level of severity is, in the nature of things, relative
+A39	ACTOR T39 ECHR
+T40	claim 21045 21234	it depends on all the circumstances of the case, such as the duration of the treatment, its physical or mental effects and, in some instances, the sex, age and state of health of the victim
+A40	ACTOR T40 ECHR
+R35	Support Arg1:T40 Arg2:T39	
+T41	premise 21236 21267;21268 21303	see Labita v. Italy [ GC ], no. 26772/95, SECTION_REF, ECHR 2000‑IV
+A41	PREMISE_TYPE T41 case-law
+R36	Support Arg1:T41 Arg2:T40	
+T42	major-claim 21760 21837	the conduct in question falls within the scope of Article 3 of the Convention
+A42	ACTOR T42 ECHR
+T43	premise 21346 21409	the presence of injuries was recorded on the applicant’s person
+A43	PREMISE_TYPE T43 fact
+T44	premise 21411 21514	The medical reports revealed the presence of a number of bruises and inflammation of the hands and knee
+A44	PREMISE_TYPE T44 fact
+T45	premise 21516 21643	Those findings are consistent with the allegations made by the applicant to the police in her complaints of 21 and 23 July 2005
+A45	PREMISE_TYPE T45 fact
+T46	premise 21645 21715	Added to this are the alleged racist and degrading remarks made to her
+A46	PREMISE_TYPE T46 fact
+R37	Support Arg1:T46 Arg2:T42	
+R38	Support Arg1:T45 Arg2:T42	
+R39	Support Arg1:T39 Arg2:T42	
+R40	Support Arg1:T43 Arg2:T42	
+R41	Support Arg1:T44 Arg2:T42	
+T47	major-claim 26440 26523	there has been a violation of Article 3 of the Convention under its procedural limb
+A47	ACTOR T47 ECHR
+T48	claim 26251 26398	the investigations carried out in the present case were sufficiently thorough and effective to satisfy the aforementioned requirements of Article 3
+A48	ACTOR T48 ECHR
+R42	Support Arg1:T48 Arg2:T47	
+T49	claim 25915 26174	the Government’s submission that the incidents had taken place in the context of the implementation of preventive measures designed to combat networks trafficking in immigrant women in the area can not justify treatment contrary to Article 3 of the Convention
+A49	ACTOR T49 ECHR
+R43	Support Arg1:T49 Arg2:T48	
+T50	claim 25390 25512	the information contained in those reports called for investigative measures to be carried out by the judicial authorities
+A50	ACTOR T50 ECHR
+T51	premise 25531 25670	the investigating judges did not take any measures to identify or hear evidence from witnesses who had been present during the altercations
+A51	PREMISE_TYPE T51 fact
+R44	Support Arg1:T51 Arg2:T48	
+T52	premise 25672 25879	nor did they investigate the applicant’s allegations regarding her transfer to the police station, where the police had allegedly attempted to make her sign a statement admitting that she had resisted orders
+A52	PREMISE_TYPE T52 fact
+R45	Support Arg1:T52 Arg2:T47	
+T53	premise 25134 25165;25166 25175;25176 25363	Neither investigating judge no. 9 nor no. 11 nor the Audiencia Provincial investigated that point further, but simply disregarded the reports on the grounds that they were undated or not conclusive as to the cause of the injuries
+A53	PREMISE_TYPE T53 fact
+R46	Support Arg1:T53 Arg2:T50	
+T54	premise 24911 25132	the medical reports provided by the applicant refer to inflammation and bruising on the left hand following the first incident and to abdominal pain and bruising to the hand and knee regarding the incident of 23 July 2005
+A54	PREMISE_TYPE T54 fact
+R47	Support Arg1:T54 Arg2:T50	
+R48	Support Arg1:T50 Arg2:T48	
+T55	claim 23976 24141	that hearing can not be regarded as sufficient to satisfy the requirements of Article 3 of the Convention, as it did not succeed in identifying the officers involved
+A55	ACTOR T55 ECHR
+R49	Support Arg1:T55 Arg2:T48	
+T56	claim 24465 24603	the applicant’s request was not a superfluous one in identifying the police involved in the incidents and establishing who was responsible
+A56	ACTOR T56 ECHR
+R50	Support Arg1:T56 Arg2:T48	
+T57	premise 24605 24698;24699 24765;24766 24838;24839 24875	as required by the Court’s case-law (see, among other authorities, Krastanov v. Bulgaria, no. 50222/99, SECTION_REF, 30 September 2004; Çamdereli v. Turkey, no. 28433/02, SECTION_REF, 17 July 2008; and Vladimir Romanov v. Russia, no. 41461/02, SECTION_REF, 24 July 2008)
+A57	PREMISE_TYPE T57 case-law
+R51	Support Arg1:T57 Arg2:T56	
+T58	premise 24143 24439	The domestic courts dismissed the applicant’s requests for an identity parade to be held behind a two-way mirror on account of the time that had elapsed since the altercations and the fact that it would be very difficult to recognise the officers because they had been wearing helmets at the time
+A58	PREMISE_TYPE T58 fact
+R52	Support Arg1:T58 Arg2:T56	
+T59	premise 22381 22432	the applicant’s complaints were indeed investigated
+A59	PREMISE_TYPE T59 fact
+T60	premise 21955 22133;22134 22231;22232 22351	the applicant complained twice of having suffered ill-treatment: firstly on 21 July 2005, when she lodged a formal verbal complaint with Palma de Mallorca investigating judge no. 8, and secondly on 25 July 2005, when she complained to Palma de Mallorca investigating judge no. 2 of being hit on the hand and knee with a truncheon by one of the police officers during the incidents of 23 July 2005
+A60	PREMISE_TYPE T60 fact
+R53	Support Arg1:T60 Arg2:T55	
+R54	Support Arg1:T59 Arg2:T55	
+T61	premise 22718 22987	the applicant requested a number of evidence-gathering measures, namely, organisation of an identity parade of the officers responsible using a two-way mirror or obtaining from the police the identification numbers of the officers who had been on duty on 15 and 23 July
+A61	PREMISE_TYPE T61 fact
+T62	premise 22989 23045;23046 23297	When examining those requests, investigating judges nos. 9 and 11, who had jurisdiction to examine the criminal complaints lodged by the applicant, merely requested incident reports from the police headquarters and based themselves exclusively on the report by the headquarters when issuing a discharge order
+A62	PREMISE_TYPE T62 fact
+T63	premise 23342 23470	the report had been prepared by the Balearic Islands chief of police, who was the immediate superior of the officers in question
+A63	PREMISE_TYPE T63 fact
+R55	Support Arg1:T61 Arg2:T55	
+R56	Support Arg1:T62 Arg2:T55	
+R57	Support Arg1:T63 Arg2:T55	
+T64	premise 23501 23605;23606 23789	the proceedings for a minor criminal offence instituted before Palma de Mallorca investigating judge no. 9 against the two police officers who, according to the information contained in the report of the police headquarters, had stopped and questioned the applicant on 15 and 21 July 2005
+A64	PREMISE_TYPE T64 fact
+R58	Support Arg1:T64 Arg2:T55	
+T65	premise 23850 23953	during the public hearing on 11 March 2008 the defendants were not formally identified by the applicant
+A65	PREMISE_TYPE T65 fact
+R59	Support Arg1:T65 Arg2:T55	
+T66	major-claim 27575 27615	It must therefore be declared admissible
+A66	ACTOR T66 ECHR
+T67	premise 27507 27573	no other ground for declaring it inadmissible has been established
+A67	PREMISE_TYPE T67 fact
+R60	Support Arg1:T67 Arg2:T66	
+T68	claim 27374 27480	the complaint is not manifestly ill-founded within the meaning of Article 35 SECTION_REF of the Convention
+A68	ACTOR T68 ECHR
+R61	Support Arg1:T68 Arg2:T66	
+T69	claim 26655 26795	she had been discriminated against as evidenced by the racist remarks made by the police officers, namely, “get out of here you black whore”
+A69	ACTOR T69 applicant
+R62	Support Arg1:T69 Arg2:T66	
+T70	claim 26816 26942	other women in the same area carrying on the same activity but with a “European phenotype” had not been stopped by the police.
+A70	ACTOR T70 applicant
+R63	Support Arg1:T70 Arg2:T66	
+T71	claim 27303 27327	disputed that submission
+A71	ACTOR T71 goverment
+R64	Attack Arg1:T71 Arg2:T70	
+T72	claim 27731 27923	the applicant had not provided a shred of evidence to support her allegation that she had been discriminated against on account of being a prostitute or the fact that she was of African origin
+A72	ACTOR T72 goverment
+T73	claim 27944 28107	the police operations in the district in question targeted, without distinction, all prostitutes working in the area, extending equally to women of European origin
+A73	ACTOR T73 ECHR
+R65	Support Arg1:T73 Arg2:T72	
+T74	claim 28174 28474	her position as a black woman working as a prostitute made her particularly vulnerable to discriminatory attacks and that those factors could not be considered separately but should be taken into account in their entirety, their interaction being essential for an examination of the facts of the case
+A74	ACTOR T74 applicant
+T75	claim 28529 28842	the repeated inspections to which she had been subjected and the racist and sexist insults made against her and the response of the domestic courts to her complaints proved that there had been discrimination and a failure by the State to comply with its positive obligation to carry out an effective investigation
+A75	ACTOR T75 applicant
+T76	claim 28878 29014	the State had exercised its public-security powers improperly and degradingly and that their actions had been disproportionate in nature
+A76	ACTOR T76 applicant
+T77	claim 29016 29099	Both their actions and the decisions of the domestic courts had been discriminatory
+A77	ACTOR T77 applicant
+T78	major-claim 29276 29335	there had been no effective investigation of her complaints
+A78	ACTOR T78 applicant
+T79	claim 29150 29253	she had been the victim of structural problems of discrimination present in the Spanish judicial system
+A79	ACTOR T79 applicant
+R66	Support Arg1:T79 Arg2:T78	
+R67	Support Arg1:T77 Arg2:T79	
+R68	Support Arg1:T76 Arg2:T77	
+R69	Support Arg1:T75 Arg2:T77	
+R70	Support Arg1:T74 Arg2:T77	
+R71	Attack Arg1:T72 Arg2:T77	
+T80	claim 30466 30733	where the State authorities investigate violent incidents, they have an additional obligation to take all reasonable measures to identify whether there were racist motives and to establish whether or not ethnic hatred or prejudice may have played a role in the events
+A80	ACTOR T80 ECHR
+T81	claim 30747 30818	proving racial motivation will often be extremely difficult in practice
+A81	ACTOR T81 ECHR
+R72	Attack Arg1:T81 Arg2:T80	
+T82	claim 30820 30968	The respondent State’s obligation to investigate possible racist overtones to a violent act is an obligation to use best endeavours and not absolute
+A82	ACTOR T82 ECHR
+R73	Support Arg1:T82 Arg2:T80	
+T83	claim 30970 31271	The authorities must do what is reasonable in the circumstances to collect and secure the evidence, explore all practical means of discovering the truth and deliver fully reasoned, impartial and objective decisions, without omitting suspicious facts that may be indicative of racially induced violence
+A83	ACTOR T83 ECHR
+R74	Support Arg1:T83 Arg2:T82	
+T84	premise 31273 31339;31340 31391;31392 31567;31568 31632;31633 31672	see, mutatis mutandis, Nachova and Others v. Bulgaria [ GC ], nos. 43577/98 and 43579/98, SECTION_REF, ECHR 2005‑VII). Lastly, the Court reiterates that the onus is on the Government to produce evidence establishing facts that cast doubt on the victim’s account (see Turan Cakir v. Belgium, no. 44256/06, SECTION_REF, 10 March 2009, and Sonkaya v. Turkey, no. 11261/03, SECTION_REF, 12 February 2008
+A84	PREMISE_TYPE T84 case-law
+R75	Support Arg1:T84 Arg2:T83	
+T85	claim 31692 32081	the authorities’ duty to investigate the existence of a possible link between racist attitudes and an act of violence is an aspect of their procedural obligations arising under Article 3 of the Convention, but may also be seen as implicit in their responsibilities under Article 14 of the Convention to secure respect without discrimination for the fundamental value enshrined in Article 3
+A85	ACTOR T85 ECHR
+T86	major-claim 34095 34226	There has accordingly been a violation of Article 14 of the Convention taken in conjunction with Article 3 in its procedural aspect
+A86	ACTOR T86 ECHR
+T87	claim 33666 33843	the decisions made by the domestic courts failed to take account of the applicant’s particular vulnerability inherent in her position as an African woman working as a prostitute
+A87	ACTOR T87 ECHR
+T88	claim 33845 34089	The authorities thus failed to comply with their duty under Article 14 of the Convention taken in conjunction with Article 3 to take all possible steps to ascertain whether or not a discriminatory attitude might have played a role in the events
+A88	ACTOR T88 ECHR
+R76	Support Arg1:T87 Arg2:T88	
+R77	Support Arg1:T88 Arg2:T86	
+T89	premise 33025 33328;33329 33575	in her complaints of 21 and 25 July 2005 the applicant mentioned the racist remarks allegedly made to her by the police, such as “get out of here you black whore”, and submitted that the officers had not stopped and questioned other women carrying on the same activity but having a “European phenotype”. Those submissions were not examined by the courts dealing with the case, which merely adopted the contents of the reports by the Balearic Islands chief of police without carrying out a more thorough investigation into the alleged racist attitudes
+A89	PREMISE_TYPE T89 fact
+R78	Support Arg1:T89 Arg2:T87	
+R79	Support Arg1:T85 Arg2:T87	
+R80	Support Arg1:T80 Arg2:T85	

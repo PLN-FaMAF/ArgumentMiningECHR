@@ -1,0 +1,91 @@
+T1	major-claim 1714 1928	complained that the refusal of the Senate of the Supreme Court to examine her appeal on points of law without a reasoned decision infringed her right to a fair hearing as provided in Article 6 § 1 of the Convention
+A1	ACTOR T1 applicant
+T2	claim 2176 2241	argued that the applicant had failed to exhaust domestic remedies
+A2	ACTOR T2 goverment
+T3	claim 4006 4085	argued that her appeal on points of law should have been examined on its merits
+A3	ACTOR T3 applicant
+T4	claim 4233 4390	argued that the sufficiency of the reasoning should be assessed in the context of the nature and role of such a decision at the relevant stage of proceedings
+A4	ACTOR T4 goverment
+T5	claim 3452 3562	conclude that this procedure cannot be taken into account for the purposes of Article 35 § 1 of the Convention
+A5	ACTOR T5 ECHR
+T6	claim 5123 5319	argued that at this preliminary stage there was no objective need for more complex reasoning by the judge rapporteur, apart from a reference to the relevant provision of the Criminal Procedure Law
+A6	ACTOR T6 goverment
+T7	claim 5943 6010	contended that the impugned decision contained sufficient reasoning
+A7	ACTOR T7 goverment
+T8	claim 6578 6831	has held that courts of cassation comply with their obligation to provide sufficient reasoning when they base themselves on a specific legal provision, without further reasoning, in dismissing cassation appeals which do not have any prospects of success
+A8	ACTOR T8 ECHR
+T9	claim 9679 9823	considers it sufficiently proved that the Senate had ruled out the existence of circumstances warranting the initiation of cassation proceedings
+A9	ACTOR T9 ECHR
+T10	claim 10889 11035	raised a complaint under Article 6 § 2 of the Convention that the principle of the presumption of innocence in her criminal case had been violated
+A10	ACTOR T10 applicant
+T11	claim 11227 11406	considers that the remaining complaint does not disclose any appearance of a violation of Article 6 § 2 of the Convention or any other provision of the Convention or its Protocols
+A11	ACTOR T11 ECHR
+R1	Attack Arg1:T2 Arg2:T1	
+T12	premise 2257 2524	she had not asked the prosecutor to lodge an appeal ( protests ) against the judgment of 13 February 2007, as provided for under chapter 63 of the Criminal Procedure Law, which set out conditions for the review of judgments and decisions which have entered into force
+A12	PREMISE_TYPE T12 fact
+R2	Support Arg1:T12 Arg2:T2	
+T13	premise 2556 2600	The applicant did not comment on this matter
+A13	PREMISE_TYPE T13 fact
+R3	Support Arg1:T13 Arg2:T2	
+T14	premise 2669 2892	the applicants are only obliged to use an effective remedy that is actually available in theory and in practice at the relevant time (see, among other authorities,  Sejdovic v. Italy  [GC], no. 56581/00, § 46, ECHR 2006‑II)
+A14	PREMISE_TYPE T14 case-law
+R4	Attack Arg1:T14 Arg2:T2	
+T15	premise 3121 3213	case of  Dāvidsons and Savins   v. Latvia , nos. 17574/07 and 25235/07, § 36, 7 January 2016
+A15	PREMISE_TYPE T15 case-law
+R5	Support Arg1:T15 Arg2:T5	
+T16	premise 3215 3414	the Court already assessed an identical argument raised by the Government and found that the review procedure enshrined in chapter 63 of the Criminal Procedure Law constituted an extraordinary remedy
+A16	PREMISE_TYPE T16 fact
+R6	Support Arg1:T16 Arg2:T5	
+T17	premise 4392 4570	The competence of the Senate in cassation proceedings was limited to ascertaining whether the substantial and procedural provisions of the Criminal Procedure Law had been applied
+A17	PREMISE_TYPE T17 principle
+R7	Support Arg1:T17 Arg2:T4	
+T18	premise 4597 4756	The Senate would examine only those appeals on points of law which cited violations of the Criminal Law or fundamental violations of the Criminal Procedure Law
+A18	PREMISE_TYPE T18 principle
+R8	Attack Arg1:T18 Arg2:T3	
+T19	premise 4783 4927	A judge rapporteur assessed whether an appeal on points of law complied with the above provisions and adopted a decision by a written resolution
+A19	PREMISE_TYPE T19 fact
+R9	Support Arg1:T19 Arg2:T4	
+T20	premise 5361 5647	cases of  Gorou v. Greece (no. 2)  ([GC], no. 12686/03, 20 March 2009), and  Bufferne v. France  ((dec.), no. 54367/00, ECHR 2002‑III (extracts)) in which the Court has not found such a practice incompatible with the requirement of sufficient reasoning under Article 6 of the Convention
+A20	PREMISE_TYPE T20 case-law
+R10	Support Arg1:T20 Arg2:T6	
+T21	premise 6079 6172	judgments of courts and tribunals should adequately state the reasons on which they are based
+A21	PREMISE_TYPE T21 principle
+R11	Support Arg1:T21 Arg2:T3	
+T22	premise 6347 6561	Although Article 6 § 1 obliges courts to give reasons for their decisions, it cannot be understood as requiring a detailed answer to every argument (see  García Ruiz v. Spain  [GC], no. 30544/96, § 26, ECHR 1999‑I)
+A22	PREMISE_TYPE T22 case-law
+R12	Support Arg1:T22 Arg2:T7	
+T23	premise 6838 7090	Sale v. France , no. 39765/04, § 17, 21 March 2006, and  Burg and Others v. France  (dec.), no. 34763/02, ECHR 2003‑II; for the same approach with regard to constitutional court practice see  Wildgruber v. Germany , (dec.) no. 32817/02, 16 October 2006
+A23	PREMISE_TYPE T23 case-law
+R13	Support Arg1:T23 Arg2:T8	
+T24	premise 7486 7693	Hansen v. Norway , no. 15319/09, § 73, 2 October 2014, with further references to  Ekbatani v. Sweden , 26 May 1988, § 27, Series A no. 134, and  Monnell and Morris v. the United Kingdom , 2 March 1987, § 56
+A24	PREMISE_TYPE T24 case-law
+R14	Support Arg1:T24 Arg2:T8	
+T25	premise 7701 7895	The Court observes that in the applicant’s case the Senate, represented by a judge rapporteur, found that the requirements of section 573 of the Criminal Procedure Law had not been complied with
+A25	PREMISE_TYPE T25 fact
+R15	Support Arg1:T25 Arg2:T9	
+T26	major-claim 10741 10815	There has accordingly been no violation of Article 6 § 1 of the Convention
+A26	ACTOR T26 ECHR
+R16	Support Arg1:T9 Arg2:T26	
+T27	premise 7922 8133	In accordance with section 573 of the Criminal Procedure Law, the Senate may refuse to admit an appeal on points of law, if such an appeal is not substantiated by fundamental violations of Criminal Procedure Law
+A27	PREMISE_TYPE T27 fact
+T28	premise 8560 8846	It is true that a general reference to the specific legal provision included in the cassation court’s letter did not specify why, in view of the applicable provision, the complaints contained in the appeal on points of law was not considered by the Senate to be fundamental in character
+A28	PREMISE_TYPE T28 fact
+R17	Support Arg1:T28 Arg2:T9	
+T29	premise 9252 9504	the Court must ascertain that decisions of national courts are not flawed by arbitrariness or otherwise manifestly unreasonable, this being the limit of the Court’s competence in assessing whether domestic law has been correctly interpreted and applied
+A29	PREMISE_TYPE T29 principle
+R18	Support Arg1:T29 Arg2:T9	
+T30	premise 9525 9579	Marina v. Latvia , no. 46040/07, § 61, 26 October 2010
+A30	PREMISE_TYPE T30 case-law
+R19	Support Arg1:T30 Arg2:T9	
+T31	premise 9151 9240	Helle v. Finland , 19 December 1997, § 60,  Reports of Judgments and Decisions  1997‑VIII
+A31	PREMISE_TYPE T31 case-law
+R20	Support Arg1:T31 Arg2:T9	
+T32	premise 9825 9967	In all her appeals the applicant raised several complaints concerning the procedure followed in establishing the evidence in her criminal case
+A32	PREMISE_TYPE T32 fact
+R21	Support Arg1:T32 Arg2:T7	
+T33	premise 9969 10115	These complaints were duly examined by two court instances with full jurisdiction, and in its judgments the lower courts provided proper reasoning
+A33	PREMISE_TYPE T33 fact
+R22	Support Arg1:T33 Arg2:T26	
+T34	premise 10301 10498	the Senate had considered the applicant’s arguments, had given the reason for rejecting the complaint and had explained to the applicant its competence in relation to the re-examination of evidence
+A34	PREMISE_TYPE T34 fact
+R23	Attack Arg1:T34 Arg2:T7	

@@ -1,0 +1,138 @@
+T1	claim 6626 6845	It is now for the Court to assess whether that second set of proceedings for the dissolution of Eğitim-Sen met a “pressing social need” and was “necessary in a democratic society” to fulfil the “legitimate aims pursued”
+A1	ACTOR T1 ECHR
+T2	major-claim 103 296	the obligation to amend its constitution in order to prevent its dissolution constituted an interference with its right to freedom of association as provided for by Article 11 of the Convention
+T3	claim 1223 1514	the proceedings brought against it constituted an interference by the national authorities in the exercise of its right to freedom of association, and that interference deprived it of the possibility of pursuing collectively or individually the aims that it had laid down in its constitution
+A2	ACTOR T3 ECHR
+A3	ACTOR T2 applicant
+T4	claim 2189 2392	the impugned interference pursued a number of legitimate aims, namely the prevention of disorder or the protection of national security, which includes the protection of the State’s territorial integrity
+A4	ACTOR T4 ECHR
+T5	claim 7663 7835	The Court must therefore ascertain whether the findings of the combined divisions of the Court of Cassation can be founded on an acceptable assessment of the relevant facts
+A5	ACTOR T5 ECHR
+T6	claim 8249 8471	the principle defended by Eğitim-Sen, according to which individuals making up Turkish society could receive education in a mother tongue other than Turkish, is not incompatible with the fundamental principles of democracy
+A6	ACTOR T6 ECHR
+T7	claim 9007 9126	the reasoning of the public prosecutor, who decided to discontinue the first dissolution proceedings against Eğitim-Sen
+A7	ACTOR T7 ECHR
+T8	claim 9552 9814	it is necessary for the proper functioning of democracy that the various associations or political groups are able to take part in public debates in order to help find solutions to general questions concerning political and public stakeholders of all persuasions
+A8	ACTOR T8 ECHR
+T9	claim 10817 11112	this willingness on the part of the legislature to open private courses for the teaching of languages and dialects other than Turkish contrasts with the position of the national authorities in finding that Article 2 (b) of Eğitim-Sen’s constitution breached Articles 3 and 42 of the Constitution
+A9	ACTOR T9 ECHR
+T10	claim 11148 11213	the reasoning of the combined divisions of the Court of Cassation
+A10	ACTOR T10 ECHR
+T11	premise 11223 11369	it was not indicated in the judgment that Eğitim-Sen had carried out illegal activities capable of undermining the unity of the Republic of Turkey
+A11	PREMISE_TYPE T11 fact
+R1	Support Arg1:T11 Arg2:T10	
+T12	premise 11371 11560	Neither did they indicate that Eğitim-Sen pursued aims that were incompatible with democratic principles or engaged in activities that were in breach of those stipulated in its constitution
+A12	PREMISE_TYPE T12 fact
+R2	Support Arg1:T12 Arg2:T10	
+T13	claim 11956 12266	the mere presence in the union’s constitution of the term “to receive education in their mother tongue”, without any other element that would indicate or prove that the real aim was different from that stated in the impugned Article of the constitution, can not be incompatible with the principles of democracy
+T14	claim 12551 12809	such an objective, with the aim of developing the culture of nationals having a mother tongue other than Turkish by providing education in that mother tongue, is not in itself incompatible with national security and does not represent a threat to public orde
+A13	ACTOR T14 ECHR
+A14	ACTOR T13 ECHR
+T15	claim 13024 13233	the existence of minorities and different cultures in a country is a historical fact that a democratic society must tolerate, or even protect and support, in accordance with the principles of international law
+A15	ACTOR T15 ECHR
+T16	premise 13239 13324	Tourkiki Enosi Xanthis and Others v. Greece, no. 26698/05, SECTION_REF, 27 March 2008
+A16	PREMISE_TYPE T16 case-law
+R3	Support Arg1:T16 Arg2:T15	
+T17	claim 13392 13566	the reasons indicated by the combined divisions of the Court of Cassation were not relevant or sufficient, and that they were not proportionate to the legitimate aims pursued
+A17	ACTOR T17 ECHR
+T18	claim 13584 13861	the dissolution proceedings brought against the applicant union, which had the result of obliging it to amend Article 2 (b) of its constitution by deleting the term “to receive education in their mother tongue”, can not reasonably be regarded as meeting a “pressing social need
+A18	ACTOR T18 ECHR
+T19	major-claim 13881 13938	there has been a violation of Article 11 of the Conventio
+A19	ACTOR T19 ECHR
+T20	premise 336 522	Everyone has the right to freedom of peaceful assembly and to freedom of association with others, including the right to form and to join trade unions for the protection of his interests
+A20	PREMISE_TYPE T20 principle
+T21	premise 527 869;870 1054	No restrictions shall be placed on the exercise of these rights other than such as are prescribed by law and are necessary in a democratic society in the interests of national security or public safety, for the prevention of disorder or crime, for the protection of health or morals or for the protection of the rights and freedoms of others. This Article shall not prevent the imposition of lawful restrictions on the exercise of these rights by members of the armed forces, of the police or of the administration of the State
+A21	PREMISE_TYPE T21 principle
+R4	Support Arg1:T20 Arg2:T2	
+R5	Support Arg1:T21 Arg2:T2	
+T22	claim 1624 1868	such interference breaches Article 11 of the Convention unless it is “prescribed by law”, pursues one or more of the legitimate aims under PARAGRAPH_REF of that provision, and is “necessary in a democratic society” in order to fulfil those aims
+A22	ACTOR T22 ECHR
+T23	premise 1939 2115	it has not been disputed by the parties that the interference in question was “prescribed by law” and that it was based, in particular, on Articles 3 and 42 of the Constitution
+T24	claim 3346 3510	the way in which national legislation enshrines this freedom and its practical application by the authorities reveal the state of democracy in the country concerned
+A23	ACTOR T24 ECHR
+T25	claim 4255 4554	in determining whether a necessity within the meaning of Article 11 SECTION_REF exists, the States have only a limited margin of appreciation, which goes hand in hand with rigorous European supervision embracing both the law and the decisions applying it, including those given by independent courts
+A24	ACTOR T25 ECHR
+T26	claim 4630 4821	its task is not to substitute its own view for that of the relevant national authorities but rather to review under Article 11 the decisions they delivered in the exercise of their discretion
+T27	claim 5259 5503	the Court has to satisfy itself that the national authorities applied standards which were in conformity with the principles embodied in Article 11 and, moreover, that they based their decisions on an acceptable assessment of the relevant facts
+R6	Support Arg1:T18 Arg2:T19	
+R7	Support Arg1:T17 Arg2:T19	
+T28	premise 12282 12528	Eğitim-Sen’s constitution, in its earlier version, indicated that the union defended the right of all individuals of society “to receive, with equality and freedom, a democratic, secular, scientific and cost-free education in their mother tongue”
+A25	PREMISE_TYPE T28 fact
+R8	Support Arg1:T28 Arg2:T14	
+R9	Support Arg1:T15 Arg2:T13	
+T29	claim 12832 12969	the competent national authorities could have taken the view that education in one’s own mother tongue favoured the culture of a minority
+A26	ACTOR T29 ECHR
+R10	Attack Arg1:T29 Arg2:T15	
+R11	Support Arg1:T13 Arg2:T17	
+R12	Attack Arg1:T10 Arg2:T13	
+T30	premise 10459 10791	Law no. 4771, enacted on 3 August 2002 and amending Law no. 2923 on foreign-language education and the learning of various languages and dialects by Turkish citizens, paved the way for the opening of private schools to teach “languages and dialects [ other than Turkish ] traditionally used by Turkish citizens in their daily lives”
+A27	PREMISE_TYPE T30 fact
+R13	Support Arg1:T30 Arg2:T9	
+R14	Support Arg1:T9 Arg2:T17	
+T31	premise 9820 9885	Vogt v. Germany, 26 September 1995, SECTION_REF, Series A no. 323
+A28	PREMISE_TYPE T31 case-law
+R15	Support Arg1:T31 Arg2:T8	
+T32	premise 9891 9960	United Communist Party of Turkey and Others, cited above, SECTION_REF
+A29	PREMISE_TYPE T32 case-law
+R16	Support Arg1:T32 Arg2:T8	
+R17	Support Arg1:T8 Arg2:T17	
+T33	premise 8487 8714	nothing in the impugned Article of Eğitim-Sen’s constitution can be regarded as a call to violence, uprising or any other form of rejection of democratic principles, this being an essential factor to be taken into consideration
+T34	premise 8720 8815	Freedom and Democracy Party (ÖZDEP) v. Turkey [ GC ], no. 23885/94, SECTION_REF, ECHR 1999‑VIII
+A32	PREMISE_TYPE T34 case-law
+R18	Citation Arg1:T34 Arg2:T33	
+A30	PREMISE_TYPE T33 fact
+R19	Support Arg1:T33 Arg2:T6	
+T35	premise 7857 7997	the wording of Article 2 (b) of Eğitim-Sen’s constitution did not contain any incitement to use violence in order to fulfil the aims pursued
+A31	PREMISE_TYPE T35 fact
+T36	premise 8009 8222	the Court of Cassation found that Eğitim-Sen had not encouraged the use of unlawful means for the fulfilment of its objective of enabling Turkish citizens to receive education in a mother tongue other than Turkish
+A33	PREMISE_TYPE T36 fact
+R20	Support Arg1:T36 Arg2:T6	
+R21	Support Arg1:T35 Arg2:T6	
+R22	Support Arg1:T5 Arg2:T18	
+T37	premise 7354 7465;7466 7657	the Court of Cassation emphasised the exceptions provided for by PARAGRAPH_REF of Article 11 of the Convention. They took the view that Eğitim-Sen’s wish to defend education in a mother tongue other than Turkish ran counter to Articles 3 and 42 of the Constitution and the principle of the unitary State
+A34	PREMISE_TYPE T37 fact
+R23	Support Arg1:T37 Arg2:T18	
+R24	Support Arg1:T1 Arg2:T19	
+R25	Support Arg1:T27 Arg2:T1	
+T38	premise 5509 5578	United Communist Party of Turkey and Others, cited above, SECTION_REF
+A35	PREMISE_TYPE T38 case-law
+T39	premise 5580 5671	Yazar and Others v. Turkey, nos. 22723/93, 22724/93 and 22725/93, SECTION_REF, ECHR 2002‑II
+A36	PREMISE_TYPE T39 case-law
+T40	premise 5677 5726	Sidiropoulos and Others, cited above, SECTION_REF
+A37	PREMISE_TYPE T40 case-law
+R26	Support Arg1:T38 Arg2:T27	
+R27	Support Arg1:T39 Arg2:T27	
+R28	Support Arg1:T40 Arg2:T27	
+T41	premise 6406 6620	Following those proceedings and the judgment of the Court of Cassation, Eğitim-Sen amended Article 2 (b) of its constitution by removing the impugned wording in order to avoid its dissolution by the national courts
+A38	PREMISE_TYPE T41 fact
+R29	Support Arg1:T41 Arg2:T1	
+T42	premise 6255 6404	at the request of the Chief of Staff of the armed forces, a second set of dissolution proceedings was initiated on the same ground against Eğitim-Sen
+A39	PREMISE_TYPE T42 fact
+R30	Support Arg1:T42 Arg2:T1	
+R31	Support Arg1:T26 Arg2:T27	
+R32	Support Arg1:T25 Arg2:T26	
+T43	premise 3723 3812	only convincing and compelling reasons can justify restrictions on freedom of association
+A40	PREMISE_TYPE T43 principle
+T44	premise 3814 3871	All such restrictions are subject to rigorous supervision
+A41	PREMISE_TYPE T44 fact
+R33	Support Arg1:T24 Arg2:T25	
+R34	Support Arg1:T43 Arg2:T25	
+R35	Support Arg1:T44 Arg2:T25	
+T45	premise 3908 4010	United Communist Party of Turkey and Others v. Turkey, 30 January 1998, SECTION_REF‑45, Reports 1998‑I
+A42	PREMISE_TYPE T45 case-law
+R36	Citation Arg1:T45 Arg2:T44	
+T46	premise 4012 4092	Socialist Party and Others v. Turkey, 25 May 1998, SECTION_REF, Reports 1998‑III
+A43	PREMISE_TYPE T46 case-law
+R37	Citation Arg1:T46 Arg2:T44	
+T47	premise 4098 4234	Refah Partisi (the Welfare Party) and Others v. Turkey [ GC ], nos. 41340/98, 41342/98, 41343/98 and 41344/98, SECTION_REF, ECHR 2003‑II
+A44	PREMISE_TYPE T47 case-law
+R38	Citation Arg1:T47 Arg2:T44	
+T48	premise 2873 2948	the right enshrined in Article 11 includes the right to form an association
+A45	PREMISE_TYPE T48 principle
+T49	premise 2641 2751	Gorzelik and Others v. Poland [ GC ], no. 44158/98, SECTION_REF, ECHR 2004‑I, and the references cited therein
+A46	PREMISE_TYPE T49 case-law
+T50	premise 2757 2844	Association Rhino and Others v. Switzerland, no. 48848/07, SECTION_REF, 11 October 2011
+A47	PREMISE_TYPE T50 case-law
+R39	Citation Arg1:T49 Arg2:T48	
+R40	Citation Arg1:T50 Arg2:T48	
+R41	Support Arg1:T48 Arg2:T25	

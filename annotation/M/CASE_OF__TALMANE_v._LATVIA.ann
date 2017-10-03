@@ -1,0 +1,151 @@
+T1	claim 1730 1928	the refusal of the Senate of the Supreme Court to examine her appeal on points of law without a reasoned decision infringed her right to a fair hearing as provided in Article 6 § 1 of the Convention
+A1	ACTOR T1 applicant
+T2	premise 1976 2107	In the determination of ... any criminal charge against him, everyone is entitled to a fair ... hearing ... by [a] ... tribunal ...
+A2	PREMISE_TYPE T2 principle
+T3	claim 2188 2241	the applicant had failed to exhaust domestic remedies
+A3	ACTOR T3 goverment
+T4	premise 2257 2524	she had not asked the prosecutor to lodge an appeal ( protests ) against the judgment of 13 February 2007, as provided for under chapter 63 of the Criminal Procedure Law, which set out conditions for the review of judgments and decisions which have entered into force
+A4	PREMISE_TYPE T4 fact
+R1	Support Arg1:T4 Arg2:T3	
+T5	premise 2669 2801	the applicants are only obliged to use an effective remedy that is actually available in theory and in practice at the relevant time
+T6	premise 2834 2891	Sejdovic v. Italy  [GC], no. 56581/00, § 46, ECHR 2006‑II
+A6	PREMISE_TYPE T6 case-law
+A5	PREMISE_TYPE T5 case-law
+R2	Citation Arg1:T6 Arg2:T5	
+T7	claim 2910 3017	Article 35 § 1 of the Convention does not require that discretionary or extraordinary remedies be exhausted
+A7	ACTOR T7 ECHR
+T8	premise 3050 3106	Babayev v. Azerbaijan  (dec.), no. 36454/03, 27 May 2004
+A8	PREMISE_TYPE T8 case-law
+R3	Support Arg1:T8 Arg2:T7	
+T9	premise 3130 3213	Dāvidsons and Savins   v. Latvia , nos. 17574/07 and 25235/07, § 36, 7 January 2016
+A9	PREMISE_TYPE T9 case-law
+T10	claim 3304 3414	the review procedure enshrined in chapter 63 of the Criminal Procedure Law constituted an extraordinary remedy
+R4	Support Arg1:T9 Arg2:T10	
+T11	claim 3466 3562	this procedure cannot be taken into account for the purposes of Article 35 § 1 of the Convention
+A11	ACTOR T11 ECHR
+T12	claim 3564 3617	The Government’s objection must therefore be rejected
+A12	ACTOR T12 ECHR
+R5	Support Arg1:T11 Arg2:T12	
+T13	claim 3645 3748	this complaint is not manifestly ill-founded within the meaning of Article 35 § 3 (a) of the Convention
+A13	ACTOR T13 ECHR
+T14	claim 3772 3815	it is not inadmissible on any other grounds
+A14	ACTOR T14 ECHR
+T15	major-claim 3818 3857	t must therefore be declared admissible
+A15	ACTOR T15 ECHR
+R6	Support Arg1:T14 Arg2:T15	
+R7	Support Arg1:T13 Arg2:T15	
+R8	Support Arg1:T12 Arg2:T15	
+R9	Support Arg1:T10 Arg2:T11	
+A10	ACTOR T10 ECHR
+R10	Support Arg1:T5 Arg2:T7	
+R11	Support Arg1:T7 Arg2:T11	
+T16	claim 4018 4085	her appeal on points of law should have been examined on its merits
+A16	ACTOR T16 applicant
+T17	claim 4245 4389	the sufficiency of the reasoning should be assessed in the context of the nature and role of such a decision at the relevant stage of proceeding
+A17	ACTOR T17 goverment
+T18	claim 5135 5319	at this preliminary stage there was no objective need for more complex reasoning by the judge rapporteur, apart from a reference to the relevant provision of the Criminal Procedure Law
+A18	ACTOR T18 goverment
+T19	premise 5371 5431	Gorou v. Greece (no. 2)  ([GC], no. 12686/03, 20 March 2009)
+A19	PREMISE_TYPE T19 case-law
+T20	premise 5438 5506	Bufferne v. France  ((dec.), no. 54367/00, ECHR 2002‑III (extracts))
+A20	PREMISE_TYPE T20 case-law
+R12	Support Arg1:T19 Arg2:T21	
+R13	Support Arg1:T20 Arg2:T21	
+T21	premise 5516 5647	the Court has not found such a practice incompatible with the requirement of sufficient reasoning under Article 6 of the Convention
+A21	PREMISE_TYPE T21 fact
+R14	Support Arg1:T21 Arg2:T18	
+T22	premise 5660 5805	the applicant submitted her appeal on points of law in an attempt to achieve a re-examination of evidence already assessed by the appellate court
+A22	PREMISE_TYPE T22 fact
+T23	premise 5816 5926	the appeal on points of law did not cite any violation susceptible to the institution of cassation proceedings
+A23	PREMISE_TYPE T23 fact
+T24	major-claim 5958 6010	the impugned decision contained sufficient reasoning
+A24	ACTOR T24 goverment
+R15	Support Arg1:T23 Arg2:T24	
+R16	Support Arg1:T22 Arg2:T24	
+R17	Support Arg1:T21 Arg2:T18	
+R18	Support Arg1:T18 Arg2:T24	
+T25	premise 4392 4570	The competence of the Senate in cassation proceedings was limited to ascertaining whether the substantial and procedural provisions of the Criminal Procedure Law had been applied
+A25	PREMISE_TYPE T25 fact
+T26	premise 4597 4756	The Senate would examine only those appeals on points of law which cited violations of the Criminal Law or fundamental violations of the Criminal Procedure Law
+A26	PREMISE_TYPE T26 fact
+T27	premise 4783 4927	A judge rapporteur assessed whether an appeal on points of law complied with the above provisions and adopted a decision by a written resolution
+A27	PREMISE_TYPE T27 fact
+T28	premise 4929 5076	This procedure initially derived from the Senate’s jurisprudence, whereas from 1 July 2009 the procedure was codified in the Criminal Procedure Law
+A28	PREMISE_TYPE T28 fact
+R19	Support Arg1:T25 Arg2:T17	
+R20	Support Arg1:T26 Arg2:T17	
+R21	Support Arg1:T27 Arg2:T17	
+R22	Support Arg1:T28 Arg2:T17	
+T29	premise 6079 6172	judgments of courts and tribunals should adequately state the reasons on which they are based
+A29	PREMISE_TYPE T29 case-law
+T30	premise 6501 6560	García Ruiz v. Spain  [GC], no. 30544/96, § 26, ECHR 1999‑I
+A30	PREMISE_TYPE T30 case-law
+T31	claim 6347 6494	Although Article 6 § 1 obliges courts to give reasons for their decisions, it cannot be understood as requiring a detailed answer to every argument
+A31	ACTOR T31 ECHR
+R23	Support Arg1:T30 Arg2:T31	
+R24	Support Arg1:T29 Arg2:T31	
+T32	premise 6592 6831	courts of cassation comply with their obligation to provide sufficient reasoning when they base themselves on a specific legal provision, without further reasoning, in dismissing cassation appeals which do not have any prospects of success
+A32	PREMISE_TYPE T32 fact
+T33	premise 6838 6888	Sale v. France , no. 39765/04, § 17, 21 March 2006
+A33	PREMISE_TYPE T33 case-law
+T34	premise 6895 6956	Burg and Others v. France  (dec.), no. 34763/02, ECHR 2003‑II
+A34	PREMISE_TYPE T34 case-law
+T35	premise 7030 7090	Wildgruber v. Germany , (dec.) no. 32817/02, 16 October 2006
+A35	PREMISE_TYPE T35 case-law
+R25	Support Arg1:T35 Arg2:T32	
+R26	Support Arg1:T34 Arg2:T32	
+R27	Support Arg1:T33 Arg2:T32	
+T36	premise 7093 7474	In order to determine whether the requirements of fairness in Article 6 were met, the Court has considered matters such as the nature of the filtering procedure and its significance in the context of the proceedings as a whole, the scope of the powers of the court of appeal, and the manner in which the applicant’s interests were actually presented and protected before that court
+A36	PREMISE_TYPE T36 fact
+T37	premise 7486 7539	Hansen v. Norway , no. 15319/09, § 73, 2 October 2014
+A37	PREMISE_TYPE T37 case-law
+T38	premise 7569 7625	Ekbatani v. Sweden , 26 May 1988, § 27, Series A no. 134
+A38	PREMISE_TYPE T38 case-law
+T39	premise 7632 7693	Monnell and Morris v. the United Kingdom , 2 March 1987, § 56
+A39	PREMISE_TYPE T39 case-law
+R28	Citation Arg1:T39 Arg2:T36	
+R29	Citation Arg1:T38 Arg2:T36	
+R30	Citation Arg1:T37 Arg2:T36	
+T40	claim 7725 7895	in the applicant’s case the Senate, represented by a judge rapporteur, found that the requirements of section 573 of the Criminal Procedure Law had not been complied with
+A40	ACTOR T40 ECHR
+T41	premise 7941 7982	section 573 of the Criminal Procedure Law
+A41	PREMISE_TYPE T41 principle
+T42	claim 7984 8133	the Senate may refuse to admit an appeal on points of law, if such an appeal is not substantiated by fundamental violations of Criminal Procedure Law
+A42	ACTOR T42 ECHR
+R31	Support Arg1:T41 Arg2:T42	
+R32	Support Arg1:T40 Arg2:T42	
+R33	Support Arg1:T32 Arg2:T36	
+T43	claim 8576 8846	a general reference to the specific legal provision included in the cassation court’s letter did not specify why, in view of the applicable provision, the complaints contained in the appeal on points of law was not considered by the Senate to be fundamental in character
+A43	ACTOR T43 ECHR
+T44	claim 8848 9144	The reasons adduced by the appellate courts are of importance for the Court satisfying itself that a national court did in fact address the essential issues which were submitted to its jurisdiction and, for example, did not merely endorse without further ado the findings reached by a lower court
+A44	ACTOR T44 ECHR
+T45	premise 9151 9240	Helle v. Finland , 19 December 1997, § 60,  Reports of Judgments and Decisions  1997‑VIII
+A45	PREMISE_TYPE T45 case-law
+R34	Support Arg1:T45 Arg2:T44	
+T46	premise 9252 9504	the Court must ascertain that decisions of national courts are not flawed by arbitrariness or otherwise manifestly unreasonable, this being the limit of the Court’s competence in assessing whether domestic law has been correctly interpreted and applied
+A46	PREMISE_TYPE T46 case-law
+T47	premise 9525 9579	Marina v. Latvia , no. 46040/07, § 61, 26 October 2010
+A47	PREMISE_TYPE T47 case-law
+R35	Citation Arg1:T47 Arg2:T46	
+R36	Support Arg1:T46 Arg2:T44	
+R37	Support Arg1:T44 Arg2:T43	
+T48	claim 9669 9823	the Court considers it sufficiently proved that the Senate had ruled out the existence of circumstances warranting the initiation of cassation proceedings
+A48	ACTOR T48 ECHR
+T49	claim 10117 10235	It was not for the Senate to re-examine the existing evidence or to obtain new evidence, as requested by the applicant
+A49	ACTOR T49 ECHR
+T50	premise 10301 10498	the Senate had considered the applicant’s arguments, had given the reason for rejecting the complaint and had explained to the applicant its competence in relation to the re-examination of evidence
+A50	PREMISE_TYPE T50 fact
+T51	claim 10548 10734	the Court is satisfied that the Senate has duly examined the grounds of the applicant’s appeal on points of law, and that the cassation court’s reasoning in this case has been sufficient
+A51	ACTOR T51 ECHR
+T52	major-claim 10741 10815	There has accordingly been no violation of Article 6 § 1 of the Convention
+A52	ACTOR T52 ECHR
+R38	Support Arg1:T51 Arg2:T52	
+R39	Support Arg1:T50 Arg2:T51	
+R40	Support Arg1:T49 Arg2:T51	
+R41	Support Arg1:T48 Arg2:T52	
+T53	premise 9844 9967	the applicant raised several complaints concerning the procedure followed in establishing the evidence in her criminal case
+A53	PREMISE_TYPE T53 fact
+T54	premise 9969 10115	These complaints were duly examined by two court instances with full jurisdiction, and in its judgments the lower courts provided proper reasoning
+A54	PREMISE_TYPE T54 fact
+R42	Support Arg1:T54 Arg2:T49	
+R43	Support Arg1:T53 Arg2:T49	

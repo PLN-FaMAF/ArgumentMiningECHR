@@ -1,0 +1,413 @@
+T1	major-claim 105 253	the investigation into her allegations of rape had not been thorough, effective and independent and that she had no effective remedy in that respect
+A1	ACTOR T1 applicant
+T2	claim 1284 1644	the part of the applicant’s complaints under Articles 3 and 8 of the Convention concerning the conduct of the police and the gynaecologist who had examined her on 23 August 2007 fell outside the six-month time-limit since the alleged failures were to be regarded as instantaneous acts which had not produced any permanent consequences or a continuous situation
+A2	ACTOR T2 goverment
+T3	claim 1710 1931	the conduct of the police and lack of compliance with the professional rules by the gynaecologist were integral parts of the investigation as a whole and could not be analysed separately from the other aspects of the case
+A3	ACTOR T3 applicant
+T4	claim 1961 2208	the applicant’s complaints under Articles 3 and 8 of the Convention concerning failures and errors on the part of the national authorities concern the investigation as such and cannot be regarded as isolated events; they have to be seen as a whole
+A4	ACTOR T4 ECHR
+T5	claim 2918 3062	where the national system allows for such a possibility and the injured party makes use of it these proceedings shall also be taken into account
+A5	ACTOR T5 ECHR
+T6	premise 3087 3139	V.D. v. Croatia, no. 15526/10, § 53, 8 November 2011
+A6	PREMISE_TYPE T6 case-law
+R1	Support Arg1:T6 Arg2:T5
+T7	major-claim 3366 3453	the Government’s objection as to compliance with the six-month rule has to be dismissed
+A7	ACTOR T7 ECHR
+T8	claim 3521 3588	the applicant had failed to exhaust all available domestic remedies
+A8	ACTOR T8 goverment
+T9	claim 4072 4322	she had not had a duty to lodge a criminal complaint against the police officers because the State Attorney’s Office had been aware of all the facts and circumstances of the case, including the conduct of both the police officer and the gynaecologist
+A9	ACTOR T9 applicant
+T10	claim 4349 4614	the applicant’s complaints as to the conduct of the police and the gynaecologist are part of her overall complaints about a lack of thoroughness and efficiency in the investigation into her allegations of rape and should not be seen in isolation as separate factors
+A10	ACTOR T10 ECHR
+T11	claim 5284 5433	any possible failures on the part of the gynaecologist have to be seen in the context of the conduct of the State bodies conducting the investigation
+A11	ACTOR T11 ECHR
+T12	premise 3599 3700	she had lodged a complaint about the conduct of the police officers with the Ministry of the Interior
+T13	premise 3702 3792	she had not lodged a regular criminal complaint with the competent State Attorney’s Office
+R2	Support Arg1:T13 Arg2:T8
+R3	Attack Arg1:T12 Arg2:T8
+T14	premise 3798 3994	As regards the conduct of the gynaecologist who had examined the applicant on 23 August 2007, the applicant failed to lodge a complaint with the inspection body of the Croatian Medical Association
+T15	premise 5025 5271	the obligation to conduct a thorough, effective and independent inquiry into allegations of rape is an obligation which concerns the State authorities responsible for conducting an investigation, and that a gynaecologist is not in such a position
+T16	major-claim 5485 5529	the Government’s objection must be dismissed
+A12	ACTOR T16 ECHR
+A13	PREMISE_TYPE T15 fact
+A14	PREMISE_TYPE T14 fact
+A15	PREMISE_TYPE T13 fact
+A16	PREMISE_TYPE T12 fact
+R4	Support Arg1:T15 Arg2:T11
+R5	Support Arg1:T10 Arg2:T16
+R6	Support Arg1:T11 Arg2:T16
+T17	claim 4629 4944	by lodging a complaint with the Ministry of the Interior the applicant made adequate use of the available remedies as regards the conduct of the police and there was no need for her to lodge a criminal complaint about it since she did not argue that the conduct of the police officers amounted to a criminal offence
+R7	Support Arg1:T17 Arg2:T16
+T18	claim 5595 5983	the applicant had lost her victim status because the relevant bodies of the Ministry of the Interior had found that the police officers involved had not taken all the required steps during the initial police inquiry into the applicant’s allegations of rape, which had amounted to a grave breach of their official duty and for which they had been fined ten per cent of their monthly salary
+A17	ACTOR T18 goverment
+T19	claim 6016 6306	she was still a victim of the violations claimed because it was the positive obligation of the State under Articles 3 and 8 of the Convention in cases of allegations of rape to conduct an effective and through investigation and thus secure effective protection to victims of sexual violence
+A18	ACTOR T19 applicant
+T20	claim 6308 6470	Internal proceedings within the Ministry of the Interior against the police officers and the symbolic fine applied could in no way excuse the State from that duty
+A19	ACTOR T20 applicant
+T21	major-claim 6501 6814	the question of whether the applicant may still be considered a victim of the violation claimed should be joined to the merits, since it is closely linked to the substance of the applicant’s complaint about the State’s alleged failure to conduct a thorough and effective investigation into her allegations of rape
+A20	ACTOR T21 ECHR
+R8	Support Arg1:T20 Arg2:T19
+R9	Support Arg1:T18 Arg2:T21
+R10	Support Arg1:T19 Arg2:T21
+T22	claim 6867 6965	this complaint is not manifestly illfounded within the meaning of Article 35 § 3 of the Convention
+A21	ACTOR T22 ECHR
+T23	claim 6977 7020	it is not inadmissible on any other grounds
+A22	ACTOR T23 ECHR
+T24	major-claim 7022 7062	It must therefore be declared admissible
+A23	ACTOR T24 ECHR
+R11	Support Arg1:T23 Arg2:T24
+R12	Support Arg1:T22 Arg2:T24
+T25	major-claim 7166 7234	the case should be examined under Articles 3 and 8 of the Convention
+A24	ACTOR T25 applicant
+T26	claim 7432 7519	the act of rape reached the level of cruelty necessary for the application of Article 3
+A25	ACTOR T26 applicant
+T27	claim 7545 7641	such an act violated the right to personal integrity protected under Article 8 of the Convention
+A26	ACTOR T27 applicant
+T28	claim 7668 8010	States were under an obligation to ensure effective protection against acts of rape, even in relations between private individuals, through the adoption of criminal-law provisions which would ensure adequate punishment for acts of rape and the obligation to conduct a thorough, independent and effective investigation and criminal prosecution
+A27	ACTOR T28 applicant
+T29	premise 8042 8244	the legal framework as regards the criminal offence of rape in the Croatian legal system was insufficient because Article 188 of the Criminal Code required the use of force or threats by the perpetrator
+T30	major-claim 9037 9112	there had been certain failures during the police inquiry and investigation
+A29	ACTOR T30 applicant
+T31	premise 9114 9321	The police had not carried out an in situ inspection; they had not secured all the evidence, such as biological and other traces at the scene of the crime, and had not taken her clothes for forensic analysis
+A30	PREMISE_TYPE T31 fact
+T32	premise 7247 7328	the Court’s judgment in the case of M.C. v. Bulgaria (no. 39272/98, ECHR 2003-XII
+A31	PREMISE_TYPE T32 case-law
+T33	premise 7335 7415	Aydin v. Turkey (25 September 1997, Reports of Judgments and Decisions 1997-VI,)
+A32	PREMISE_TYPE T33 case-law
+T34	claim 8323 8443	such a definition of the criminal offence of rape was too narrow since it did not cover all unwilling sexual intercourse
+A33	ACTOR T34 applicant
+A28	PREMISE_TYPE T29 fact
+T35	premise 8246 8301	Legal practice also required resistance from the victim
+A34	PREMISE_TYPE T35 fact
+T36	major-claim 8456 8606	the rules of criminal procedure, those in force at the time of the event in issue, namely in 2007, did not ensure the right of the victim to legal aid
+A35	ACTOR T36 applicant
+R13	Support Arg1:T35 Arg2:T34
+R14	Support Arg1:T29 Arg2:T34
+T37	claim 10575 10839	the medical record from 2001, when she had been treated by a psychiatrist, had been obtained and kept in the case file only so as to cover the failures in the investigation and to show her in a negative light and thus stress her own role and not that of the suspec
+A36	ACTOR T37 applicant
+T38	claim 11862 12043	The fact that the judge had not paid attention to these crucial circumstances, but instead concentrated exclusively on the behaviour of the applicant showed his lack of impartiality
+A37	ACTOR T38 applicant
+T39	major-claim 12479 12692	all the State bodies involved in the investigation of the applicant’s allegations of rape had taken all possible steps in order to establish the facts of the case and adopted correct, lawful and reasoned decisions
+A38	ACTOR T39 goverment
+T40	claim 12943 13220	the applicant had given several contradictory statements during the police enquiry and the investigation, which had warranted that a psychiatric report in respect of her be commissioned in order to establish her ability to correctly interpret and reconstruct the event at issue
+A39	ACTOR T40 goverment
+T41	claim 13282 13557	because of the particular susceptibility of victims of rape to being re-traumatised through interaction with the criminal justice system, a distinct approach should be taken to the interpretation of the State’s positive obligations in the context of crimes of sexual violence
+A40	ACTOR T41 other
+T42	claim 12694 12920	They analysed in detail the evidence collected during the investigation and asserted that the national authorities had correctly concluded that there had not been sufficient evidence for the further criminal prosecution of D.Š
+A41	ACTOR T42 goverment
+R15	Support Arg1:T42 Arg2:T39
+R16	Support Arg1:T40 Arg2:T39
+T43	major-claim 13851 14308	States have a duty to prevent secondary victimisation by putting in place specific measures such as specialised training of law-enforcement personnel, adopting specialist techniques for protection against the traumatising effects of police and court questioning and examination, restrictions on the admissibility of certain evidence, and providing multidisciplinary professional assistance for victims, as well as establishing special victim support centres
+A42	ACTOR T43 other
+T44	premise 14393 14458	rape amounts to treatment contrary to Article 3 of the Convention
+A43	PREMISE_TYPE T44 case-law
+T45	premise 14464 14500	Aydın v. Turkey and M.C. v. Bulgaria
+A44	PREMISE_TYPE T45 case-law
+T46	claim 15845 16018	effective deterrence against grave acts such as rape, where fundamental values and essential aspects of private life are at stake, requires efficient criminal-law provisions
+A45	ACTOR T46 ECHR
+T47	claim 15670 15843	the choice of the means to secure compliance with Article 8 in the sphere of protection against acts of individuals is in principle within the State’s margin of appreciation
+A46	ACTOR T47 ECHR
+R17	Attack Arg1:T47 Arg2:T46
+T48	premise 16020 16114	Children and other vulnerable individuals, in particular, are entitled to effective protection
+A47	ACTOR T48 ECHR
+T49	premise 16120 16214	X and Y v. the Netherlands, judgment of 26 March 1985, Series A no. 91, pp. 11-13, SECTION_REF
+A48	PREMISE_TYPE T49 case-law
+T50	premise 16220 16286	August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003
+A49	PREMISE_TYPE T50 case-law
+T51	claim 17126 17349	that States have a positive obligation inherent in Articles 3 and 8 of the Convention to enact criminal-law provisions effectively punishing rape and to apply them in practice through effective investigation and prosecution
+A50	ACTOR T51 ECHR
+T53	claim 17356 17666	Even though the scope of the State’s positive obligations might differ between cases where treatment contrary to Article 3 has been inflicted through the involvement of State agents and cases where violence has been inflicted by private individuals, the requirements as to an official investigation are similar
+A52	ACTOR T53 ECHR
+T54	claim 17668 17873	For the investigation to be regarded as “effective”, it should in principle be capable of leading to the establishment of the facts of the case and to the identification and punishment of those responsible
+A53	ACTOR T54 ECHR
+T55	claim 17930 18122	The authorities must have taken the reasonable steps available to them to secure the evidence concerning the incident, including, inter alia, eyewitness testimony, forensic evidence, and so on
+A54	ACTOR T55 ECHR
+T56	claim 18973 19423	the primary duty of the State to secure the right not to be exposed to treatment contrary to Articles 3 and 8 of the Convention or, in the context of the present case, to attacks on one’s personal integrity, by putting in place an appropriate legal and administrative framework to deter the commission of offences against the person, backed up by law-enforcement machinery for the prevention, suppression and punishment of breaches of such provisions
+A55	ACTOR T56 ECHR
+T57	premise 19429 19496	Sandra Janković v. Croatia, no. 38478/05, SECTION_REF, 5 March 2009
+A56	PREMISE_TYPE T57 case-law
+T58	premise 19502 19563	Beganović v. Croatia, no. 46423/06, SECTION_REF, 25 June 2009
+A57	PREMISE_TYPE T58 case-law
+T59	claim 20288 20395	Prosecution in respect of that offence is to be undertaken by the State Attorney’s Office of its own motion
+A58	ACTOR T59 ECHR
+T60	claim 22221 22313	t falls first to the national authorities to redress any alleged violation of the Convention
+A59	ACTOR T60 ECHR
+T61	claim 22335 22484	the question whether an applicant can claim to be a victim of the violation alleged is relevant at all stages of the proceedings under the Convention
+A60	ACTOR T61 ECHR
+T62	premise 22490 22548	Burdov v. Russia, no. 59498/00, SECTION_REF, ECHR 2002-III
+A61	PREMISE_TYPE T62 case-law
+T63	premise 22554 22615	Trepashkin v. Russia, no. 36898/03, SECTION_REF, 19 July 2007
+A62	PREMISE_TYPE T63 case-law
+T64	premise 22653 22934	a decision or measure favourable to an applicant is not in principle sufficient to deprive him or her of his or her status as a “victim” unless the national authorities have acknowledged, either expressly or in substance, and then afforded redress for, the breach of the Convention
+A63	PREMISE_TYPE T64 case-law
+T65	claim 23288 23436	the machinery for the protection of fundamental rights established by the Convention is subsidiary to the national systems safeguarding human rights
+A64	ACTOR T65 ECHR
+T66	claim 24186 24574	the finding that police officers F.C. and I.Z. had failed to conduct the initial police enquiry into the applicant’s allegations of rape in a satisfactory manner, and that officer I.Z. did not collect all the relevant evidence amounts to an acknowledgment that at the initial stage the investigation into the applicant’s allegations of rape was flawed and lacked the required thoroughness
+A65	ACTOR T66 ECHR
+T67	claim 24783 25083	the finding that officer I.Z. had committed a grave breach of his official duty, defined as a “failure to act or untimely or reckless conduct or conduct lacking diligence in the carrying out of his official duties” gave good grounds to the applicant for lodging a compensation claim against the State
+A66	ACTOR T67 ECHR
+T68	claim 25417 25590	the issue of the conduct of the police during the initial stages of the enquiry into the applicant’s allegations of rape has been adequately addressed by the national bodies
+A67	ACTOR T68 ECHR
+T69	claim 25722 25806	there exists a system of redress in the national law for the breach of official duty
+A68	ACTOR T69 ECHR
+T70	claim 26461 26530	the applicant may still claim to be a victim of the violation claimed
+A69	ACTOR T70 ECHR
+T71	claim 25821 25887	this can not satisfy the requirement of an effective investigation
+A70	ACTOR T71 ECHR
+T72	claim 25889 25983	These initial flaws necessarily had an impact on the effectiveness of the entire investigation
+A71	ACTOR T72 ECHR
+R19	Support Arg1:T72 Arg2:T70
+R20	Support Arg1:T71 Arg2:T70
+T73	claim 27791 28029	The Court does not consider that in every instance where an investigating judge who has initially expressed his or her disagreement with the request for an investigation later conducts the investigation in the same case lacks impartiality
+A72	ACTOR T73 ECHR
+T74	claim 29086 29306	the allegation that a rape victim was under the influence of alcohol or other circumstances concerning the victim’s behaviour or personality can not dispense the authorities from the obligation to effectively investigate
+A73	ACTOR T74 ECHR
+T75	claim 29541 29706;29707 29734	This choice of words leaves little doubt as to the judge’s view as regards one of the crucial aspects of the case, namely the question whether the applicant and D.Š. were left alone at any time
+A74	ACTOR T75 ECHR
+T76	claim 29736 29966	This strongly worded statement combined with the emphasis on the applicant’s own conduct could raise a question of appearances as to the judge’s objectivity and impartiality in respect of his continued conduct of the investigation
+A75	ACTOR T76 ECHR
+R21	Support Arg1:T75 Arg2:T76
+T77	claim 30792 30931	These objective flaws in the investigation show a passive attitude as to the efforts made to properly probe applicant’s allegations of rape
+A76	ACTOR T77 ECHR
+T78	major-claim 30964 31163	in the present case there has been a violation of the procedural aspect of both Article 3 and Article 8 of the Convention and dismisses the Government’s objections as to the applicant’s victim status
+A77	ACTOR T78 ECHR
+T79	major-claim 31334 31472	the national authorities involved in the investigation of her allegations of rape had discriminated against her on the basis of her gender
+A78	ACTOR T79 applicant
+T80	premise 31553 31851	The enjoyment of the rights and freedoms set forth in [ the ] Convention shall be secured without discrimination on any ground such as sex, race, colour, language, religion, political or other opinion, national or social origin, association with a national minority, property, birth or other status
+A79	PREMISE_TYPE T80 principle
+R22	Support Arg1:T80 Arg2:T79
+T81	claim 31885 31933	the victims of sexual violence were mostly women
+A80	ACTOR T81 applicant
+R23	Support Arg1:T81 Arg2:T79
+T82	claim 32166 32479	the investigating judge had acted with prejudice against the applicant when he expressed his disagreement with the request for an investigation and labelled the applicant as merely a person having disturbed public peace and order and consumed a large quantity of alcohol, and ignored the crucial facts of the case
+A81	ACTOR T82 applicant
+T83	claim 32511 32672	this complaint is closely linked to the one concerning the procedural aspect of Articles 3 and 8 of the Convention and must also therefore be declared admissible
+A82	ACTOR T83 ECHR
+T84	claim 32708 32827	t this complaint essentially overlaps with the issues which have been examined under Articles 3 and 8 of the Convention
+A83	ACTOR T84 ECHR
+T85	claim 32829 32955	Having found a violation of those provisions, the Court holds that no separate issue arises under Article 14 of the Convention
+A84	ACTOR T85 ECHR
+R24	Support Arg1:T84 Arg2:T85
+R25	Support Arg1:T83 Arg2:T85
+R27	Support Arg1:T82 Arg2:T79
+T86	premise 3146 3281	Since the applicant in the present case did pursue the prosecution of D.Š., the Court notes that those proceedings ended on 27 May 2011
+A85	PREMISE_TYPE T86 fact
+T87	premise 2246 2354	the Croatian legal system provides for a possibility for the injured party to act as a subsidiary prosecutor
+A86	PREMISE_TYPE T87 fact
+R26	Support Arg1:T87 Arg2:T5
+R28	Support Arg1:T86 Arg2:T7
+R29	Support Arg1:T5 Arg2:T7
+R30	Support Arg1:T4 Arg2:T7
+R31	Support Arg1:T2 Arg2:T7
+T88	premise 321 330;331 421	Article 3 “No one shall be subjected to torture or to inhuman or degrading treatment or punishment.”
+A87	PREMISE_TYPE T88 principle
+T89	premise 422 431;432 535;536 947	Article 8 “1. Everyone has the right to respect for his private and family life, his home and his correspondence. 2. There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic well-being of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.”
+A88	PREMISE_TYPE T89 principle
+T90	premise 948 958;959 1197	Article 13 “Everyone whose rights and freedoms as set forth in [the] Convention are violated shall have an effective remedy before a national authority notwithstanding that the violation has been committed by persons acting in an official capacity.”
+A89	PREMISE_TYPE T90 principle
+R32	Support Arg1:T90 Arg2:T1
+R33	Support Arg1:T89 Arg2:T1
+R34	Support Arg1:T88 Arg2:T1
+R35	Support Arg1:T3 Arg2:T7
+R36	Support Arg1:T14 Arg2:T8
+R37	Support Arg1:T8 Arg2:T16
+R38	Support Arg1:T9 Arg2:T16
+R39	Support Arg1:T33 Arg2:T26
+R40	Support Arg1:T32 Arg2:T26
+R41	Support Arg1:T26 Arg2:T25
+R42	Support Arg1:T27 Arg2:T25
+R43	Support Arg1:T28 Arg2:T27
+R44	Support Arg1:T34 Arg2:T36
+R45	Support Arg1:T38 Arg2:T30
+R46	Support Arg1:T37 Arg2:T98
+T91	premise 9323 9476	The skirt she had been wearing on the critical occasion which she had given to the police on 30 August 2007 had never been given for forensic examination
+A90	PREMISE_TYPE T91 fact
+R47	Support Arg1:T31 Arg2:T30
+T92	premise 9478 9609	The police officers had treated her with disrespect and asked the men present at the scene why they had not thrown her into the sea
+A91	PREMISE_TYPE T92 fact
+T93	premise 9611 9673	An officer had also said that she had been drunk and not raped
+A92	PREMISE_TYPE T93 fact
+T94	premise 9675 9839	She had not immediately been interviewed or instructed to seek psychological aid and had given her statement for the first time three weeks after the event at issue
+A93	PREMISE_TYPE T94 fact
+R48	Support Arg1:T91 Arg2:T31
+R49	Support Arg1:T92 Arg2:T30
+R50	Support Arg1:T93 Arg2:T30
+R51	Support Arg1:T94 Arg2:T30
+T95	premise 9845 10004	The gynaecologist who had examined her at the S. Hospital had made no comments about the lacerations on her body, considering that these were not in his domain
+T96	premise 10006 10154	The medical report drawn up at the C. Medical centre two days after the event at issue had been in contradiction to the findings of the gynaecologis
+A94	PREMISE_TYPE T96 fact
+T97	premise 10161 10294	The psychiatric report concerning the applicant had been drawn up without her participation, on the basis of a telephone conversation
+A95	PREMISE_TYPE T97 fact
+T98	claim 10296 10547	The report had relied on previous medical reports from 2001 which had been asked for by the investigating judge of his own motion, allegedly in order to establish whether the applicant used any medication, which had no relevance for the event at issue
+A96	ACTOR T98 applicant
+R52	Support Arg1:T98 Arg2:T30
+R53	Support Arg1:T97 Arg2:T30
+R54	Support Arg1:T96 Arg2:T30
+R55	Support Arg1:T95 Arg2:T30
+T99	major-claim 11022 11134	he had acted with prejudice against her when he expressed his disagreement with the request for an investigation
+A97	ACTOR T99 applicant
+T100	claim 11136 11454	In that decision he had “labelled” her by saying that she had disturbed public peace and order, caused disturbances, shouted, woken up the guests, and consumed large quantities of alcoholic beverages, whereas he had not commented at all on the behaviour of the suspect, who had also been under the influence of alcohol
+A98	ACTOR T100 applicant
+R56	Support Arg1:T100 Arg2:T99
+T101	premise 10846 10968	The applicant had asked that Judge S.G. withdraw from the investigation of the case on account of his lack of impartiality
+A99	PREMISE_TYPE T101 fact
+R57	Support Arg1:T101 Arg2:T99
+T102	premise 11456 11715	The judge had also stated that he had consulted the entire case file and concluded that “the injured party and the suspect had not been alone at any time”, which was in contradiction to the statement of the suspect given in his first interview with the police
+A100	PREMISE_TYPE T102 fact
+R58	Support Arg1:T102 Arg2:T38
+T103	premise 11717 11860	Even in the evidence he gave to the investigating judge the suspect had said that he and the applicant had gone to the ship and started kissing
+A101	PREMISE_TYPE T103 fact
+R59	Support Arg1:T103 Arg2:T38
+R60	Support Arg1:T38 Arg2:T99
+T104	claim 13559 13740	They defined secondary victimisation as victimisation that occurred not as a direct result of the criminal act but through the response of institutions and individuals to the victim
+R61	Support Arg1:T41 Arg2:T43
+R62	Support Arg1:T104 Arg2:T43
+A102	ACTOR T104 other
+R63	Citation Arg1:T45 Arg2:T44
+R64	Citation Arg1:T49 Arg2:T48
+R65	Citation Arg1:T50 Arg2:T48
+T106	claim 15423 15662	Positive obligations on the State are inherent in the right to effective respect for private life under Article 8; these obligations may involve the adoption of measures even in the sphere of the relations of individuals between themselves
+A104	ACTOR T106 ECHR
+R66	Support Arg1:T106 Arg2:T46
+T107	premise 16525 16649	Such a positive obligation can not be considered in principle to be limited solely to cases of ill-treatment by State agents
+T108	premise 16674 16736	Calvelli and Ciglio v. Italy [ GC ], no. 32967/96, ECHR 2002-I
+A106	PREMISE_TYPE T108 case-law
+R67	Citation Arg1:T108 Arg2:T107
+T105	premise 14731 15132	the obligation of the High Contracting Parties under Article 1 of the Convention to secure to everyone within their jurisdiction the rights and freedoms defined in the Convention, taken together with Article 3, requires States to take measures designed to ensure that individuals within their jurisdiction are not subjected to ill-treatment, including ill-treatment administered by private individuals
+T109	premise 15138 15262	A. v. the United Kingdom, judgment of 23 September 1998, Reports of Judgments and Decisions 1998-VI, p. 2699, SECTION_REF; Z
+A107	PREMISE_TYPE T109 case-law
+T110	premise 15267 15415	Others v. the United Kingdom [ GC ], no. 29392/95, SECTION_REF, ECHR 2001-V; and E. and Others v. the United Kingdom, no. 33218/96, 26 November 2002
+A108	PREMISE_TYPE T110 case-law
+R18	Citation Arg1:T109 Arg2:T105
+R68	Citation Arg1:T110 Arg2:T105
+A103	PREMISE_TYPE T105 case-law
+R69	Support Arg1:T105 Arg2:T51
+R70	Support Arg1:T48 Arg2:T46
+R71	Support Arg1:T46 Arg2:T51
+T111	claim 16294 16416	In a number of cases, Article 3 of the Convention gives rise to a positive obligation to conduct an official investigation
+T112	premise 16422 16522	Assenov and Others v. Bulgaria, judgment of 28 October 1998, Reports 1998-VIII, p. 3290, SECTION_REF
+A110	PREMISE_TYPE T112 case-law
+R72	Support Arg1:T112 Arg2:T111
+A105	PREMISE_TYPE T107 case-law
+A109	ACTOR T111 ECHR
+R73	Support Arg1:T107 Arg2:T111
+R74	Support Arg1:T111 Arg2:T51
+T113	claim 16753 16979	the Court has not excluded the possibility that the State’s positive obligation under Article 8 to safeguard the individual’s physical integrity may extend to questions relating to the effectiveness of a criminal investigation
+A111	ACTOR T113 ECHR
+T114	premise 16985 17082	Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3164, SECTION_REF
+A112	PREMISE_TYPE T114 case-law
+R75	Support Arg1:T114 Arg2:T113
+R76	Support Arg1:T113 Arg2:T51
+R77	Support Arg1:T57 Arg2:T56
+R78	Support Arg1:T58 Arg2:T56
+T52	premise 20241 20286	the applicant alleged that she had been raped
+A51	PREMISE_TYPE T52 fact
+R79	Support Arg1:T52 Arg2:T59
+T115	premise 21988 22218	under Article 34 of the Convention it “may receive applications from any person... claiming to be the victim of a violation by one of the High Contracting Parties of the rights set forth in the Convention or the Protocols thereto”
+A113	PREMISE_TYPE T115 principle
+R80	Support Arg1:T115 Arg2:T60
+T116	claim 31184 31243	no separate issue arises under Article 13 of the Convention
+A114	ACTOR T116 ECHR
+R81	Support Arg1:T116 Arg2:T78
+R82	Support Arg1:T51 Arg2:T78
+R83	Support Arg1:T77 Arg2:T78
+T117	claim 30011 30265	the applicant made further complaints as to the effectiveness of the investigation, arguing that the authorities had not complied with their obligation to take all reasonable steps available to them to secure the evidence concerning the incident at issue
+A115	ACTOR T117 ECHR
+R84	Support Arg1:T117 Arg2:T77
+T118	premise 30267 30418	The skirt the applicant was wearing on the critical occasion and which she gave to the police of her own accord was never sent for forensic examination
+A116	PREMISE_TYPE T118 fact
+T119	premise 30420 30594	It was also argued that insufficient efforts were made to ensure that witness Ve.M., [ 10 ] who appeared to have some relevant knowledge, was heard by the investigating judge
+T120	premise 30596 30682	No in situ inspection was carried out at the time when the police arrived at the scene
+A118	PREMISE_TYPE T120 fact
+A117	PREMISE_TYPE T119 fact
+R85	Support Arg1:T118 Arg2:T117
+R86	Support Arg1:T119 Arg2:T117
+R87	Support Arg1:T120 Arg2:T117
+T121	premise 30697 30790	the authorities never answered the applicant’s allegations of bias of the investigation judge
+A119	PREMISE_TYPE T121 fact
+R88	Support Arg1:T121 Arg2:T77
+T122	premise 29339 29539	the investigating judge concluded as follows: “The criminal complaint and the enclosures in the case-file show with certainty that the injured party was not, at any moment, alone with the suspect... ”
+A120	PREMISE_TYPE T122 fact
+R89	Support Arg1:T122 Arg2:T75
+R90	Support Arg1:T76 Arg2:T78
+T123	claim 28535 28687	the Court attaches significant importance to appearances in matters of criminal justice, since justice must not just be done but must be seen to be done
+A121	ACTOR T123 ECHR
+T124	claim 28689 28791	What is at stake is the confidence which the courts in a democratic society must inspire in the public
+A122	ACTOR T124 ECHR
+T125	premise 28816 28884	Borgers v. Belgium, 30 October 1991, SECTION_REF, Series A no. 214‑B
+A123	PREMISE_TYPE T125 case-law
+T126	premise 28890 28956	Mirilashvili v. Russia, no. 6293/04, SECTION_REF, 11 December 2008
+A124	PREMISE_TYPE T126 case-law
+R91	Support Arg1:T125 Arg2:T124
+R92	Support Arg1:T126 Arg2:T124
+R93	Support Arg1:T124 Arg2:T123
+R94	Support Arg1:T123 Arg2:T74
+R95	Support Arg1:T74 Arg2:T76
+T127	premise 28151 28286;28287 28341	the investigating judge disagreed with the request by the S. County State Attorney’s Office to open an investigation in respect of D.Š. in connection with the applicant’s allegations of rape
+A125	PREMISE_TYPE T127 fact
+T128	claim 28343 28454	He voiced quite a strong opinion of the applicant and largely based his disagreement on the applicant’s conduct
+A126	ACTOR T128 ECHR
+R96	Support Arg1:T127 Arg2:T128
+R97	Support Arg1:T128 Arg2:T74
+T129	claim 28031 28124	Each case warrants an assessment of the judge’s impartiality in view of all the circumstances
+A127	ACTOR T129 ECHR
+R98	Support Arg1:T129 Arg2:T73
+R99	Support Arg1:T73 Arg2:T76
+T130	claim 26552 26654	the role of Judge S.G. in the investigation of the applicant’s allegations of rape should be addressed
+A128	ACTOR T130 ECHR
+T132	premise 27229 27283	Articles 189 and 190 of the Code on Criminal Procedure
+A129	PREMISE_TYPE T132 principle
+T131	premise 27291 27467	n the present case Judge S.G., acting as the investigating judge, disagreed with the request to open an investigation into the applicant’s allegations of rape in respect of D.Š
+A130	PREMISE_TYPE T131 fact
+T133	premise 27469 27758;27759 27785	He based his disagreement on the written police records of the interviews carried out with the persons present at the scene at the time when the police arrived, the medical report drawn up by the gynaecologist who examined the applicant on the same day, and the oral evidence given by D.Š. to the investigating judge
+A131	PREMISE_TYPE T133 fact
+R100	Support Arg1:T133 Arg2:T131	
+R101	Support Arg1:T131 Arg2:T128	
+T134	premise 26693 26954;26955 27068;27069 27227	when an investigating judge receives a request for opening an investigation from the State Attorney’s Office, he or she has to hear the suspect and then decide, on the basis of the evidence contained in the request, whether he or she agrees with such a request. In the case of his or her consent, the investigating judge issues a decision on the opening of the investigation. In the case to the contrary the investigating judge issues a decision expressing his or her disagreement with the request for the opening of the investigation
+A132	PREMISE_TYPE T134 principle
+R102	Support Arg1:T134 Arg2:T130	
+R103	Citation Arg1:T132 Arg2:T134	
+R104	Support Arg1:T130 Arg2:T78	
+T135	premise 25985 26453	The applicant made further complaints as regards the effectiveness of the investigation, such as the fact that the skirt she had been wearing on the occasion at issue had never been sent for forensic examination; that witness Ve.M., who allegedly had some knowledge about her underwear being found on the boat (see above, SECTION_REF), [ 9 ] had not been heard; and those concerning the position of Judge S.G., who acted as the investigating judge in the case at issue
+A133	PREMISE_TYPE T135 fact
+R105	Support Arg1:T135 Arg2:T70	
+R106	Support Arg1:T70 Arg2:T78	
+R107	Support Arg1:T68 Arg2:T69	
+R108	Support Arg1:T69 Arg2:T70	
+R109	Support Arg1:T67 Arg2:T68	
+T136	premise 25333 25383	they were acknowledged by the national authorities
+A134	PREMISE_TYPE T136 fact
+R110	Support Arg1:T136 Arg2:T68	
+T137	claim 25085 25317	While the above-mentioned flaws at the initial stage of the police enquiry, when evidence had to be secured, certainly undermined the possibility of establishing the facts of the case with more certainty in any further investigation
+A135	ACTOR T137 ECHR
+R111	Attack Arg1:T137 Arg2:T68	
+R112	Support Arg1:T66 Arg2:T68	
+T138	premise 23602 23905	The choice as to the most appropriate means of achieving this is in principle a matter for the domestic authorities, who are in continuous contact with the vital forces of their countries and are better placed to assess the possibilities and resources afforded by their respective domestic legal systems
+A136	PREMISE_TYPE T138 case-law
+T139	premise 23911 23997	Swedish Engine Drivers’ Union v. Sweden, 6 February 1976, SECTION_REF, Series A no. 20
+A137	PREMISE_TYPE T139 case-law
+T140	premise 23999 24075	Chapman v. the United Kingdom [ GC ], no. 27238/95, SECTION_REF, ECHR 2001-I
+A138	PREMISE_TYPE T140 case-law
+T141	premise 24081 24158	Sisojeva and Others v. Latvia [ GC ], no. 60654/00, SECTION_REF, ECHR 2007-II
+A139	PREMISE_TYPE T141 case-law
+R113	Citation Arg1:T139 Arg2:T138	
+R114	Citation Arg1:T140 Arg2:T138	
+R115	Citation Arg1:T141 Arg2:T138	
+R116	Support Arg1:T138 Arg2:T65	
+R117	Support Arg1:T60 Arg2:T61	
+R118	Support Arg1:T62 Arg2:T61	
+R119	Support Arg1:T63 Arg2:T61	
+R120	Support Arg1:T61 Arg2:T78	
+T142	premise 22940 23000	Amuur v. France, 25 June 1996, SECTION_REF, Reports 1996-III
+A140	PREMISE_TYPE T142 case-law
+T143	premise 23006 23071	Dalban v. Romania [ GC ], no. 28114/95, SECTION_REF, ECHR 1999-VI
+A141	PREMISE_TYPE T143 case-law
+R121	Citation Arg1:T143 Arg2:T64	
+R122	Citation Arg1:T142 Arg2:T64	
+T144	claim 23074 23178	Such acknowledgment and redress are usually the result of the process of exhaustion of domestic remedies
+A142	ACTOR T144 ECHR
+T145	premise 23184 23247	Koç and Tambaş v. Turkey (dec.), no. 46947/99, 24 February 2005
+A143	PREMISE_TYPE T145 case-law
+R123	Support Arg1:T145 Arg2:T144	
+R124	Support Arg1:T64 Arg2:T144	
+R125	Support Arg1:T144 Arg2:T70	

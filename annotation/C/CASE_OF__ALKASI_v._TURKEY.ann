@@ -1,0 +1,145 @@
+T1	claim 1615 1762	the labour court’s dismissal of her claim for compensation against her former employer amounted to a violation of her right to be presumed innocent
+A1	ACTOR T1 applicant
+T2	premise 1772 1875	the labour court found that she had broken her employer’s trust by committing the offence of incitement
+A2	PREMISE_TYPE T2 fact
+T3	major-claim 1903 2070	the labour court’s complete disregard of her acquittal in relation to the charge of incitement is incompatible with the requirements of Article 6 § 2 of the Convention
+A3	ACTOR T3 applicant
+R2	Support Arg1:T1 Arg2:T3	
+R3	Support Arg1:T2 Arg2:T3	
+T4	premise 1557 1584	Article 6 of the Convention
+A4	PREMISE_TYPE T4 principle
+R1	Support Arg1:T4 Arg2:T1	
+T5	claim 2096 2236	the Bakırköy Labour Court based its decision on self-incriminating statements which she had given to the police in the absence of her lawyer
+A5	ACTOR T5 applicant
+R4	Support Arg1:T5 Arg2:T3	
+T6	claim 2354 2445	the applicant’s grievances fall to be examined solely under Article 6 § 2 of the Convention
+A6	ACTOR T6 ECHR
+T7	premise 2471 2575	Everyone charged with a criminal offence shall be presumed innocent until proved guilty according to law
+A7	PREMISE_TYPE T7 principle
+R5	Support Arg1:T7 Arg2:T6	
+T8	major-claim 2665 2791	the applicant’s dismissal at the material time had been based on the self-incriminating statements she had given to the police
+A8	ACTOR T8 goverment
+T9	premise 2802 2898	she had retracted her statements at a later date and denied having committed the alleged offence
+R6	Attack Arg1:T9 Arg2:T8	
+T10	premise 2900 3049	the labour court had established that the acts of the applicant had breached her employer’s trust and therefore justified her dismissal from her post
+A10	PREMISE_TYPE T10 fact
+R7	Support Arg1:T10 Arg2:T8	
+A9	PREMISE_TYPE T9 fact
+T11	claim 3082 3188	the applicant’s argument that the labour court had mentioned or had regard to her guilt under criminal law
+A11	ACTOR T11 goverment
+R8	Support Arg1:T11 Arg2:T8	
+T12	claim 5177 5304	the Court requires an applicant to demonstrate the existence of a link between concluded proceedings and subsequent proceedings
+A12	ACTOR T12 ECHR
+T13	premise 3314 3411	Article 6 § 2 safeguards the right to be “presumed innocent until proved guilty according to law”
+A13	PREMISE_TYPE T13 principle
+R9	Support Arg1:T13 Arg2:T12	
+T14	premise 3489 3785	the presumption of innocence imposes requirements in respect of,  inter alia , the burden of proof, legal presumptions of fact and law, the privilege against self-incrimination, pre-trial publicity and premature expressions, by the trial court or by other public officials, of a defendant’s guilt
+A14	PREMISE_TYPE T14 fact
+T15	premise 3787 3914	see  Allen v. the United Kingdom  [GC], no. 25424/09, § 93, ECHR 2013 and the cases cited therein for a summary of the case-law
+A15	PREMISE_TYPE T15 case-law
+R10	Citation Arg1:T15 Arg2:T14	
+R11	Support Arg1:T14 Arg2:T12	
+T16	premise 4137 4381	protect individuals who have been acquitted of a criminal charge, or in respect of whom criminal proceedings have been discontinued, from being treated by public officials and authorities as though they are in fact guilty of the offence charged
+A16	PREMISE_TYPE T16 fact
+T17	claim 4383 4583	Without protection to ensure respect for the acquittal or the discontinuation decision in any other proceedings, the fair trial guarantees of Article 6 § 2 could risk becoming theoretical and illusory
+A17	ACTOR T17 ECHR
+R12	Support Arg1:T16 Arg2:T17	
+R13	Support Arg1:T17 Arg2:T12	
+T18	premise 4680 4863	a person must be treated in a manner that is consistent with his or her innocence after the conclusion of criminal proceedings which have terminated in an acquittal or discontinuation
+A18	PREMISE_TYPE T18 principle
+R14	Support Arg1:T18 Arg2:T17	
+T19	major-claim 8123 8163	It must therefore be declared admissible
+A19	ACTOR T19 ECHR
+R15	Support Arg1:T12 Arg2:T51	
+T20	claim 6314 6491	the language used by a decision maker would be of critical importance in assessing the compatibility of the decision and its reasoning with Article 6 § 2 (ibid., §§ 125 and 126)
+A20	ACTOR T20 ECHR
+T21	premise 5306 5793	Such a link is likely to be present, for example, where the subsequent proceedings require examination of the outcome of the prior criminal proceedings and, in particular, where they oblige the court to analyse the criminal judgment, to engage in a review or evaluation of the evidence in the criminal file, to assess the applicant’s participation in some or all of the events leading to the criminal charge, or to comment on the subsisting indications of the applicant’s possible guilt.
+A21	PREMISE_TYPE T21 case-law
+R16	Support Arg1:T21 Arg2:T12	
+T22	premise 5890 6093	there was no single approach to ascertaining the circumstances in which the second aspect of Article 6 § 2 would be violated in the context of proceedings following the conclusion of criminal proceedings
+A22	PREMISE_TYPE T22 case-law
+R17	Support Arg1:T22 Arg2:T20	
+T23	premise 6622 6849	the Court will have regard to the applicability of Article 6 § 2 to the impugned decision of the Bakırköy Labour Court by determining whether a link existed between the criminal proceedings and the subsequent labour proceedings
+A23	PREMISE_TYPE T23 case-law
+T25	premise 7355 7512	the parties do not dispute the fact that the termination of the applicant’s employment was directly related to the events leading to the criminal proceedings
+A25	PREMISE_TYPE T25 fact
+T26	premise 6891 7165	the Court will have regard to whether the reasons given in the Bakırköy Labour Court’s decision, or the language in which it set out its reasoning, allowed doubt to be cast on the presumption of the applicant’s innocence, when she had not been proved guilty according to law
+A26	PREMISE_TYPE T26 case-law
+R18	Support Arg1:T23 Arg2:T51	
+R19	Support Arg1:T26 Arg2:T51	
+T24	claim 7681 7746	a strong link between the criminal and labour proceedings existed
+A24	ACTOR T24 ECHR
+R20	Support Arg1:T20 Arg2:T12	
+R21	Support Arg1:T24 Arg2:T12	
+T27	claim 7761 7838	Article 6 § 2 is applicable in the context of the labour proceedings at issue
+A27	PREMISE_TYPE T27 principle
+R22	Support Arg1:T27 Arg2:T51	
+T30	major-claim 10500 10597	the wording employed by the labour court ran contrary to the right guaranteed under Article 6 § 2
+A30	ACTOR T30 ECHR
+T31	claim 10639 10905	the labour court not only disregarded the final acquittal and found that the applicant had committed the offence of incitement, but that in doing so it also relied on the self-incriminating statements given by the applicant to the police in the absence of her lawyer
+A31	ACTOR T31 applicant
+T32	premise 9816 10128	although the Bakırköy Labour Court was empowered to make a fresh assessment of the facts, it based its reasoning to a large extent on the criminal file, and concluded that the applicant had indeed committed the offence of incitement, when in fact she had been acquitted of the same offence by the criminal courts
+A32	PREMISE_TYPE T32 fact
+R24	Support Arg1:T32 Arg2:T30	
+T28	premise 10130 10417	The statement imputing criminal liability to the applicant, in complete disregard of her acquittal in the criminal proceedings, went beyond the court’s task of determining the justifiability of the decision to dismiss her from her post, and cast doubt on the correctness of her acquittal
+A28	PREMISE_TYPE T28 fact
+R23	Support Arg1:T28 Arg2:T30	
+T29	premise 8219 8460	the nature of the labour court’s task was to assess whether the termination of the applicant’s employment had been justified, and whether the applicant should have received notice and severance pay upon termination of her employment contract
+A29	PREMISE_TYPE T29 principle
+T33	claim 8871 9075	even exoneration from criminal responsibility does not, as such, preclude the establishment of civil or other forms of liability arising out of the same facts on the basis of a less strict burden of proof
+A33	ACTOR T33 ECHR
+T34	premise 9096 9151	Ringvold v. Norway ,   no. 34964/97, § 38, ECHR 2003‑II
+A34	PREMISE_TYPE T34 case-law
+R25	Support Arg1:T34 Arg2:T33	
+R26	Support Arg1:T33 Arg2:T30	
+T35	claim 9623 9787	Any statement or reasoning by a civil court calling into question the applicant’s established innocence would be incompatible with the requirements of Article 6 § 2
+A35	ACTOR T35 ECHR
+T36	premise 9307 9485	the national courts in the subsequent proceedings need to stay within the bounds of a civil forum and refrain from suggesting criminal characterization of the applicant’s conduct
+A36	PREMISE_TYPE T36 case-law
+R27	Support Arg1:T36 Arg2:T35	
+R28	Support Arg1:T35 Arg2:T30	
+T37	premise 10944 11160	it has already found that the use as evidence for a criminal conviction of statements given by the accused to the police without the assistance of a lawyer may amount to a violation of Article 6 § 1 of the Convention
+A37	PREMISE_TYPE T37 case-law
+R29	Support Arg1:T37 Arg2:T31	
+T38	claim 11291 11359	her statements to the police were used as evidence in the civil case
+A38	ACTOR T38 applicant
+T39	claim 11914 12030	reliance by a court on such statements in civil proceedings may raise an issue under Article 6 § 1 of the Convention
+A39	ACTOR T39 ECHR
+T40	premise 11390 11677	the labour court in its judgment referred to the fact that the applicant’s employer had relied on the fact that the applicant had confessed to inciting M.G. into committing the crime, and that the labour court explicitly stated that it had examined the entire criminal investigation file
+A40	PREMISE_TYPE T40 fact
+R30	Support Arg1:T40 Arg2:T39	
+T41	premise 11754 11875	the statements given by the applicant to the police without the assistance of a lawyer were relied on by the labour court
+A41	PREMISE_TYPE T41 fact
+R31	Support Arg1:T41 Arg2:T39	
+R32	Support Arg1:T38 Arg2:T31	
+T42	major-claim 12361 12422	there has been a violation of Article 6 § 2 of the Convention
+A42	ACTOR T42 ECHR
+R33	Support Arg1:T39 Arg2:T42	
+R34	Support Arg1:T31 Arg2:T42	
+T43	premise 9158 9211	Vella v. Malta , no. 69122/10, § 56, 11 February 2014
+A43	PREMISE_TYPE T43 case-law
+R35	Support Arg1:T43 Arg2:T33	
+T44	premise 9507 9558	Teodor v. Romania , no. 46878/06, § 44, 4 June 2013
+A44	PREMISE_TYPE T44 case-law
+R36	Citation Arg1:T44 Arg2:T36	
+T45	premise 9565 9620	N.A.   v. Norway , no. 27473/11, § 46, 18 December 2014
+A45	PREMISE_TYPE T45 case-law
+R37	Citation Arg1:T45 Arg2:T36	
+T46	premise 5838 5859	Allen  (ibid., § 125)
+A46	PREMISE_TYPE T46 other
+R38	Citation Arg1:T46 Arg2:T22	
+T47	premise 5800 5826	Allen , cited above, § 104
+A47	PREMISE_TYPE T47 case-law
+R39	Citation Arg1:T47 Arg2:T21	
+T48	premise 4865 4877	ibid., § 103
+A48	PREMISE_TYPE T48 case-law
+R40	Citation Arg1:T48 Arg2:T18	
+T49	premise 4585 4596	ibid., § 94
+A49	PREMISE_TYPE T49 case-law
+R41	Support Arg1:T49 Arg2:T17	
+T50	premise 11167 11224	Salduz v. Turkey  [GC], no. 36391/02, §§ 56-62, ECHR 2008
+A50	PREMISE_TYPE T50 case-law
+R42	Citation Arg1:T50 Arg2:T37	
+T51	claim 7840 7942	The application is therefore not incompatible  ratione materiae  with the provisions of the Convention
+A51	ACTOR T51 ECHR
+R43	Support Arg1:T51 Arg2:T19	
